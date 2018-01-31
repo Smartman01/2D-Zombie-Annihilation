@@ -1,0 +1,1303 @@
+fileFormatVersion: 2
+guid: c56ff6544cd08fd48b71fcc4eb97755c
+timeCreated: 1511660174
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_0
+    21300002: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_1
+    21300004: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_2
+    21300006: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_3
+    21300008: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_4
+    21300010: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_5
+    21300012: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_6
+    21300014: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_7
+    21300016: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_8
+    21300018: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_9
+    21300020: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_10
+    21300022: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_11
+    21300024: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_12
+    21300026: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_13
+    21300028: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_14
+    21300030: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_15
+    21300032: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_16
+    21300034: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_17
+    21300036: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_18
+    21300038: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_19
+    21300040: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_20
+    21300042: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_21
+    21300044: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_22
+    21300046: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_23
+    21300048: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_24
+    21300050: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_25
+    21300052: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_26
+    21300054: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_27
+    21300056: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_28
+    21300058: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_29
+    21300060: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_30
+    21300062: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_31
+    21300064: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_32
+    21300066: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_33
+    21300068: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_34
+    21300070: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_35
+    21300072: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_36
+    21300074: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_37
+    21300076: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_38
+    21300078: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_39
+    21300080: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_40
+    21300082: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_41
+    21300084: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_42
+    21300086: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_43
+    21300088: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_44
+    21300090: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_45
+    21300092: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_46
+    21300094: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_47
+    21300096: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_48
+    21300098: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_49
+    21300100: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_50
+    21300102: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_51
+    21300104: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_52
+    21300106: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_53
+    21300108: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_54
+    21300110: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_55
+    21300112: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_56
+    21300114: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_57
+    21300116: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_58
+    21300118: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_59
+    21300120: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_60
+    21300122: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_61
+    21300124: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_62
+    21300126: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_63
+    21300128: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_64
+    21300130: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_65
+    21300132: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_66
+    21300134: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_67
+    21300136: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_68
+    21300138: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_69
+    21300140: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_70
+    21300142: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_71
+    21300144: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_72
+    21300146: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_73
+    21300148: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_74
+    21300150: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_75
+    21300152: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_76
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Tizen
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Samsung TV
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 178
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_1
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 178
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_2
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 178
+        width: 17
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_3
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 178
+        width: 16
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_4
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 177
+        width: 20
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_5
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 177
+        width: 25
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_6
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 176
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_7
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 176
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_8
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 177
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_9
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 176
+        width: 25
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_10
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 159
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_11
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 161
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_12
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 158
+        width: 10
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_13
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 161
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_14
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 161
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_15
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 155
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_16
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 158
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_17
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 159
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_18
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 161
+        width: 22
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_19
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 159
+        width: 29
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_20
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 160
+        width: 23
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_21
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 158
+        width: 31
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 142
+        width: 52
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_23
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 142
+        width: 54
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_24
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 142
+        width: 52
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_25
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 143
+        width: 34
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_26
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 144
+        width: 45
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_27
+      rect:
+        serializedVersion: 2
+        x: 246
+        y: 142
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_28
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 126
+        width: 56
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_29
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 126
+        width: 57
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_30
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 126
+        width: 58
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_31
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 127
+        width: 59
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_32
+      rect:
+        serializedVersion: 2
+        x: 234
+        y: 125
+        width: 65
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_33
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 123
+        width: 58
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 106
+        width: 61
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_35
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 107
+        width: 57
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_36
+      rect:
+        serializedVersion: 2
+        x: 122
+        y: 109
+        width: 56
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_37
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 103
+        width: 53
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_38
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 102
+        width: 56
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_39
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 89
+        width: 58
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_40
+      rect:
+        serializedVersion: 2
+        x: 59
+        y: 89
+        width: 56
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_41
+      rect:
+        serializedVersion: 2
+        x: 117
+        y: 89
+        width: 51
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_42
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 85
+        width: 39
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 71
+        width: 54
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_44
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 70
+        width: 44
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_45
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 67
+        width: 35
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_46
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 65
+        width: 47
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_47
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 67
+        width: 47
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_48
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 66
+        width: 34
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_49
+      rect:
+        serializedVersion: 2
+        x: 268
+        y: 66
+        width: 42
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_50
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 64
+        width: 41
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_51
+      rect:
+        serializedVersion: 2
+        x: 354
+        y: 64
+        width: 46
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_52
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 46
+        width: 24
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_53
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 48
+        width: 40
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_54
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 50
+        width: 40
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_55
+      rect:
+        serializedVersion: 2
+        x: 110
+        y: 49
+        width: 38
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_56
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 51
+        width: 22
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_57
+      rect:
+        serializedVersion: 2
+        x: 177
+        y: 45
+        width: 23
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_58
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 45
+        width: 34
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_59
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 45
+        width: 20
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_60
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 48
+        width: 21
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_61
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 28
+        width: 37
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_62
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 23
+        width: 51
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_63
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 28
+        width: 41
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_64
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 26
+        width: 67
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_65
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 30
+        width: 42
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_66
+      rect:
+        serializedVersion: 2
+        x: 249
+        y: 28
+        width: 44
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_67
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 26
+        width: 48
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_68
+      rect:
+        serializedVersion: 2
+        x: 348
+        y: 19
+        width: 55
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_69
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 17
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_70
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 4
+        width: 23
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_71
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 4
+        width: 27
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_72
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 5
+        width: 20
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_73
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 0
+        width: 22
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_74
+      rect:
+        serializedVersion: 2
+        x: 115
+        y: 3
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_75
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 7
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: black_ops___nazi_zombies_weapons_by_im_not_crying-d5q055s_76
+      rect:
+        serializedVersion: 2
+        x: 158
+        y: 4
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

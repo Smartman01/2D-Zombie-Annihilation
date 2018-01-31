@@ -1,0 +1,913 @@
+fileFormatVersion: 2
+guid: ce777d182b9a05843bfaa215f43a74ee
+timeCreated: 1511660293
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_0
+    21300002: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_1
+    21300004: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_2
+    21300006: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_3
+    21300008: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_4
+    21300010: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_5
+    21300012: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_6
+    21300014: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_7
+    21300016: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_8
+    21300018: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_9
+    21300020: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_10
+    21300022: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_11
+    21300024: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_12
+    21300026: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_13
+    21300028: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_14
+    21300030: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_15
+    21300032: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_16
+    21300034: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_17
+    21300036: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_18
+    21300038: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_19
+    21300040: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_20
+    21300042: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_21
+    21300044: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_22
+    21300046: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_23
+    21300048: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_24
+    21300050: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_25
+    21300052: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_26
+    21300054: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_27
+    21300056: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_28
+    21300058: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_29
+    21300060: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_30
+    21300062: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_31
+    21300064: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_32
+    21300066: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_33
+    21300068: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_34
+    21300070: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_35
+    21300072: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_36
+    21300074: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_37
+    21300076: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_38
+    21300078: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_39
+    21300080: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_40
+    21300082: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_41
+    21300084: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_42
+    21300086: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_43
+    21300088: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_44
+    21300090: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_45
+    21300092: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_46
+    21300094: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_47
+    21300096: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_48
+    21300098: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_49
+    21300100: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_50
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: tvOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Tizen
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Samsung TV
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 298
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_1
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 298
+        width: 26
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_2
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 298
+        width: 26
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_3
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 300
+        width: 25
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_4
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 300
+        width: 22
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_5
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 298
+        width: 35
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_6
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 310
+        width: 19
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 242
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_8
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 242
+        width: 40
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_9
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 242
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_10
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 242
+        width: 34
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_11
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 242
+        width: 35
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_12
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 242
+        width: 42
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_13
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 242
+        width: 40
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_14
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 242
+        width: 37
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_15
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 242
+        width: 30
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_16
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 241
+        width: 36
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_17
+      rect:
+        serializedVersion: 2
+        x: 418
+        y: 186
+        width: 31
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 35
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_19
+      rect:
+        serializedVersion: 2
+        x: 36
+        y: 184
+        width: 41
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_20
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 184
+        width: 33
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_21
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 184
+        width: 31
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_22
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 184
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_23
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 184
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_24
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 184
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_25
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 184
+        width: 41
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_26
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 184
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_27
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 186
+        width: 41
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_28
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 186
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_29
+      rect:
+        serializedVersion: 2
+        x: 454
+        y: 186
+        width: 38
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_30
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 186
+        width: 37
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_31
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 125
+        width: 35
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_32
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 125
+        width: 38
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_33
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 126
+        width: 35
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_34
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 126
+        width: 32
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_35
+      rect:
+        serializedVersion: 2
+        x: 278
+        y: 127
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_36
+      rect:
+        serializedVersion: 2
+        x: 346
+        y: 137
+        width: 26
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_37
+      rect:
+        serializedVersion: 2
+        x: 408
+        y: 139
+        width: 34
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_38
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 125
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_39
+      rect:
+        serializedVersion: 2
+        x: 555
+        y: 125
+        width: 34
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_40
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 42
+        width: 36
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_41
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 42
+        width: 36
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_42
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 52
+        width: 31
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_43
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 53
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_44
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 65
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_45
+      rect:
+        serializedVersion: 2
+        x: 314
+        y: 71
+        width: 33
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_46
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 72
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_47
+      rect:
+        serializedVersion: 2
+        x: 456
+        y: 72
+        width: 35
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 73
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_49
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 0
+        width: 297
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: nazi_zombies_enemies_by_im_not_crying-d5q0a4t_50
+      rect:
+        serializedVersion: 2
+        x: 398
+        y: 0
+        width: 63
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

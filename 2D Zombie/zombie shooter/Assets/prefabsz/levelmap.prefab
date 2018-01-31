@@ -1,0 +1,103 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &187428
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 476314}
+  - component: {fileID: 11472362}
+  m_Layer: 0
+  m_Name: levelmap
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &476314
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 187428}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11472362
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 187428}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9eb7619bf5ec48742a8e4bc1ff854aab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelFileName: Level2.png
+  colorToPrefab:
+  - color:
+      serializedVersion: 2
+      rgba: 4278190080
+    prefab: {fileID: 126792, guid: dab72a10995ef824b8d1763ce0a95a79, type: 2}
+  - color:
+      serializedVersion: 2
+      rgba: 4278321152
+    prefab: {fileID: 121624, guid: 264ea106489c6c94ea17661b84dfcd19, type: 2}
+  - color:
+      serializedVersion: 2
+      rgba: 4278255616
+    prefab: {fileID: 150804, guid: 2960f355b161d714dafe0957b15a02ca, type: 2}
+  - color:
+      serializedVersion: 2
+      rgba: 4278386688
+    prefab: {fileID: 107410, guid: 12f654d71c8629a43bcde743c23c2a47, type: 2}
+  - color:
+      serializedVersion: 2
+      rgba: 4278517760
+    prefab: {fileID: 131434, guid: c28339544abc51a44ab3d8d20962657a, type: 2}
+  - color:
+      serializedVersion: 2
+      rgba: 4278452224
+    prefab: {fileID: 164634, guid: 4aef1f9a154418346bfbee76a1e52baa, type: 2}
+  - color:
+      serializedVersion: 2
+      rgba: 4278583296
+    prefab: {fileID: 137312, guid: d81c0793aceba62438c8c5b0720ce004, type: 2}
+  - color:
+      serializedVersion: 2
+      rgba: 4278648832
+    prefab: {fileID: 104232, guid: 56eea3117390d294880575012494f0e4, type: 2}
+  - color:
+      serializedVersion: 2
+      rgba: 4278714368
+    prefab: {fileID: 183802, guid: 12ad83bf74ae60c4a978dc9070247744, type: 2}
+  - color:
+      serializedVersion: 2
+      rgba: 4278452224
+    prefab: {fileID: 164634, guid: 4aef1f9a154418346bfbee76a1e52baa, type: 2}
+  - color:
+      serializedVersion: 2
+      rgba: 4278452224
+    prefab: {fileID: 164634, guid: 4aef1f9a154418346bfbee76a1e52baa, type: 2}
+  - color:
+      serializedVersion: 2
+      rgba: 4278452224
+    prefab: {fileID: 164634, guid: 4aef1f9a154418346bfbee76a1e52baa, type: 2}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 187428}
+  m_IsPrefabParent: 1
