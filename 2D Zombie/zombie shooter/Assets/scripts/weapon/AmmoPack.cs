@@ -23,8 +23,11 @@ public class AmmoPack : MonoBehaviour {
         if (hitplayer != null && hit.transform.tag == "Player")
         {
             var ammo = hit.GetComponent<Shooting>();
+            var grenade = hit.GetComponent<GrenadeThrower>();
             Debug.Log("Ammo");
+            Debug.Log("Grenade");
             ammo.reserve = 200;
+            grenade.grenadeClip = 3;
             //Destroy(gameObject);
         }
     }
