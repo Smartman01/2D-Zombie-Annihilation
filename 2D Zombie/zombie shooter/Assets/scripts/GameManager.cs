@@ -36,9 +36,10 @@ public class GameManager : MonoBehaviour
 	public Image atomicBomb;
 	public Text atomicBombText;
 	public GameObject atomicBombPrefab;
-	
-	//Rounds
-	public Transform[] spawnPoints;
+    public Transform atomBombSpawn;
+
+    //Rounds
+    public Transform[] spawnPoints;
 	public GameObject[] zombies;
     //public GameObject hellHound;
 	//public GameObject bossZombie;
@@ -192,15 +193,15 @@ public class GameManager : MonoBehaviour
         {
             extraDamage.color = new Color32(255, 0, 0, 130);
         }
-        /*if (money >= 1234567) 
+        if (money >= 1234567) 
 		{
 			atomicBombText.text = "C - 1234567/1234567$";
-			atomicBomb.color = new Color32 (255, 255, 255, 255);
+			atomicBomb.color = new Color32 (255, 0, 0, 255);
 		}
         else
         {
-             atomicBomb.color = new Color32(255, 255, 255, 130);
-        }*/
+             atomicBomb.color = new Color32(255, 0, 0, 130);
+        }
 
         //Activating && subtracting money
         //Shield
@@ -216,10 +217,11 @@ public class GameManager : MonoBehaviour
 			StartCoroutine(ExtraDam());
 		}
 		//AtomicBomb
-		/*if(Input.GetKeyDown(KeyCode.C) && money >= 1234567) 
+		if(Input.GetKeyDown(KeyCode.C) && money >= 1234567) 
 		{
 			money = (int)(money - 1234567);
-		}*/
+            Instantiate(atomicBombPrefab, atomBombSpawn.position, transform.rotation);
+		}
 	}
 	
 	public IEnumerator SpawnZombies (int wave)
@@ -267,11 +269,6 @@ public class GameManager : MonoBehaviour
 		bullet.damage = 10;
 		StopCoroutine (ExtraDam ());
 	}
-
-	//IEnumerator ABomb () 
-	//{
-
-	//}
 
     void Achievements()
     {

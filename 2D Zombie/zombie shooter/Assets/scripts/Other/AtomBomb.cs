@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Grenade : MonoBehaviour {
+public class AtomBomb : MonoBehaviour {
 
     public float delay = 3f;
     public float blastRaduis = 5f;
@@ -17,20 +17,22 @@ public class Grenade : MonoBehaviour {
     public int damage;
 
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start()
+    {
         countdown = delay;
-	}
-	
-	// Update is called once per frame
-	void Update () {
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
         countdown -= Time.deltaTime;
-        if(countdown <= 0f && !hasExploded)
+        if (countdown <= 0f && !hasExploded)
         {
             Explode();
             hasExploded = true;
         }
-	}
+    }
 
     void Explode()
     {
@@ -61,25 +63,24 @@ public class Grenade : MonoBehaviour {
         Destroy(gameObject);
     }
 
-    void OnCollisionEnter2D(Collision2D coll)
+    void OnTriggerEnter2D(Collider2D coll)
     {
         var hit = coll.gameObject;
         var hitplayer = hit.tag = "Enemy";
-        
+
         if (hitplayer != null)
         {
             var Zomhealth = hit.GetComponent<ZombieHealth>();
             Rigidbody2D rb2d = hit.GetComponent<Rigidbody2D>();
-            if (rb2d != null)
+            if (rb2d != null && hitplayer != null)
             {
                 rb2d.AddForce(transform.position, ForceMode2D.Impulse);
                 rb2d.AddTorque(force);
             }
-            Debug.Log("hit by grenade");
+            Debug.Log("hit by atom");
             Zomhealth.ZomDamage(damage);
             Instantiate(explosionEffect, transform.position, transform.rotation);
             Destroy(gameObject);
         }
     }
 }
-
