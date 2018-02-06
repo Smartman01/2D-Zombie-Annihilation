@@ -6,9 +6,9 @@ using UnityEngine.UI;
 public class ZombieHealth : MonoBehaviour {
 	
 	//The box's current health point total
-	public int addHealth;
-	const int maxHealth = 100 + addHealth;
-	public int currentHealth = maxHealth;
+	//static int addHealth = 0;
+	const int maxHealth = 100;
+	public int currentHealth = maxHealth /*+ addHealth*/;
 
 	public int scoreValue = 10;
 	
@@ -26,7 +26,19 @@ public class ZombieHealth : MonoBehaviour {
     void Start()
 	{
         Player = GameObject.Find("Player");
-        currentHealth = maxHealth;
+        
+        currentHealth = maxHealth /*+ addHealth*/;
+
+        /*if (GameManager.waveNum > 1)
+        {
+            for(var i = 0; i <  GameManager.waveNum; i++)
+            {
+                int aHMulty = 10;
+                aHMulty += 10; 
+                addHealth = 0;
+                addHealth += 10 + aHMulty;
+            }
+        }*/
 	}
 	
 	void Update()
@@ -41,6 +53,8 @@ public class ZombieHealth : MonoBehaviour {
             Destroy(gameObject);
             GameManager.zombieCounter--;
         }*/
+
+
 	}
 	
 	public void ZomDamage(int ZomdamageAmount)

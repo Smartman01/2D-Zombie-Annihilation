@@ -46,13 +46,14 @@ public class GameManager : MonoBehaviour
 	public float spawnDelay;
 	public static int zombieCounter;
 	public int defaultSpawnNum;
-	public int waveNum;
+	public static int waveNum;
 	public Text waveText;
 	public static bool isSpawning = false;
-	//public ZombieHealth[] zombieHealth;
+    //public ZombieHealth[] zombieHealth;
+    //GameObject[] zombiesAddHealth;
 
-	//Timer
-	public float timer = 60.00f;
+    //Timer
+    public float timer = 60.00f;
 	public Text timerText;
 
     //Achievements
@@ -131,11 +132,15 @@ public class GameManager : MonoBehaviour
 			{
 				//Debug.Log("add Health");
 				zombies[zombiesIndex].GetComponent<ZombieHealth>().currentHealth += 10;
-			}*/
-			for (var i = 0; i < zombies.Length; i++) 
-			{
-				zombies[i].GetComponent<ZombieHealth>().addHealth += 10;
 			}
+            if(zombiesAddHealth == null)
+            {
+                zombiesAddHealth = GameObject.FindGameObjectsWithTag("Enemy");
+            }
+			for (var i = 0; i < zombiesAddHealth.Length; i++) 
+			{
+                zombiesAddHealth[i].GetComponent<ZombieHealth>().a;
+            }*/
 		}
 
         /*if(health.currentHealth <= 0)
