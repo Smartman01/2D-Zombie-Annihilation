@@ -131,11 +131,11 @@ public class GameManager : MonoBehaviour
 			{
 				//Debug.Log("add Health");
 				zombies[zombiesIndex].GetComponent<ZombieHealth>().currentHealth += 10;
-			}
-			for (int i = 0, zombiesLength = zombies.Length; i < zombiesLength; i++) 
-			{
-				zombies[i].GetComponent<ZombieHealth>().currentHealth += 10;
 			}*/
+			for (var i = 0; i < zombies.Length; i++) 
+			{
+				zombies[i].GetComponent<ZombieHealth>().addHealth += 10;
+			}
 		}
 
         /*if(health.currentHealth <= 0)
