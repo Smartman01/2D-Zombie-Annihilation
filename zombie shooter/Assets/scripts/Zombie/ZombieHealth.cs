@@ -6,7 +6,8 @@ using UnityEngine.UI;
 public class ZombieHealth : MonoBehaviour {
 	
 	//The box's current health point total
-	const int maxHealth = 100;
+	public int addHealth;
+	const int maxHealth = 100 + addHealth;
 	public int currentHealth = maxHealth;
 
 	public int scoreValue = 10;
