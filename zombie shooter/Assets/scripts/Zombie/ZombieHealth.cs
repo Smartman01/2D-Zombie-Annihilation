@@ -7,7 +7,7 @@ public class ZombieHealth : MonoBehaviour {
 	
 	//The box's current health point total
 	//static int addHealth = 0;
-	const int maxHealth = 100;
+	static int maxHealth = 100;
 	public int currentHealth = maxHealth /*+ addHealth*/;
 
 	public int scoreValue = 10;
@@ -25,6 +25,8 @@ public class ZombieHealth : MonoBehaviour {
 
     void Start()
 	{
+        //maxHealth = 100;
+
         Player = GameObject.Find("Player");
         
         currentHealth = maxHealth /*+ addHealth*/;
@@ -33,7 +35,8 @@ public class ZombieHealth : MonoBehaviour {
         {
             for(var i = 0; i <  GameManager.waveNum; i++)
             {
-                maxHealth = maxHealth + waveNum * 5;
+                maxHealth = 100 + GameManager.waveNum * 5;
+                Debug.Log(" adding health is working");
             }
         }
 	}
