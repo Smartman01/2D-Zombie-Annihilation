@@ -29,16 +29,13 @@ public class ZombieHealth : MonoBehaviour {
         
         currentHealth = maxHealth /*+ addHealth*/;
 
-        /*if (GameManager.waveNum > 1)
+        if (GameManager.waveNum > 1)
         {
             for(var i = 0; i <  GameManager.waveNum; i++)
             {
-                int aHMulty = 10;
-                aHMulty += 10; 
-                addHealth = 0;
-                addHealth += 10 + aHMulty;
+                maxHealth = waveNum * 5;
             }
-        }*/
+        }
 	}
 	
 	void Update()
