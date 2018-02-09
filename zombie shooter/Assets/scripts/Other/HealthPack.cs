@@ -17,7 +17,7 @@ public class HealthPack : MonoBehaviour {
     {
         var hit = coll.gameObject;
         var hitplayer = hit.GetComponent<PlayerController>();
-        if (hitplayer != null && hit.transform.tag == "Player")
+        if (hitplayer != null && hit.transform.tag == "Player" && Input.GetKey("e"))
         {
             var health = hit.GetComponent<Health>();
             Debug.Log("Health");
