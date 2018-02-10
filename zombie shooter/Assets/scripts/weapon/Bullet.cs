@@ -54,7 +54,7 @@ public class Bullet : MonoBehaviour {
     void OnCollisionEnter2D(Collision2D coll)
     {
         var hit = coll.gameObject;
-		var hitplayer = hit.tag = "Enemy";
+		var hitplayer = hit.transform.tag = "Enemy";
         if (hitplayer != null)
         {
             var Zomhealth = hit.GetComponent<ZombieHealth>();

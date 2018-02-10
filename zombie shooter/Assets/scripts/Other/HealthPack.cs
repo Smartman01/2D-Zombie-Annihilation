@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class HealthPack : MonoBehaviour {
-	// Use this for initialization
-	void Start () {
+
+    public int healthPrice;
+
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -13,12 +16,13 @@ public class HealthPack : MonoBehaviour {
 		
 	}
 
-    void OnTriggerEnter2D(Collider2D coll)
+    void OnTriggerStay2D(Collider2D coll)
     {
         var hit = coll.gameObject;
         var hitplayer = hit.GetComponent<PlayerController>();
-        if (hitplayer != null && hit.transform.tag == "Player" && Input.GetKey("e"))
+        if (hitplayer != null && hit.transform.tag == "Player" && Input.GetKeyUp("e") && GameManager.money >= healthPrice)
         {
+            GameManager.money -= healthPrice;
             var health = hit.GetComponent<Health>();
             Debug.Log("Health");
             health.currentHealth = 100;

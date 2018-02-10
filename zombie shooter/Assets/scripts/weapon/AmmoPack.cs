@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AmmoPack : MonoBehaviour {
 
-    //public int ammoPrice;
+    public int ammoPrice;
 
 	// Use this for initialization
 	void Start () {
@@ -16,12 +16,13 @@ public class AmmoPack : MonoBehaviour {
 		
 	}
 
-    void OnTriggerEnter2D(Collider2D coll)
+    void OnTriggerStay2D(Collider2D coll)
     {
         var hit = coll.gameObject;
         var hitplayer = hit.GetComponent<PlayerController>();
-        if (hitplayer != null && hit.transform.tag == "Player")
+        if (hitplayer != null && hit.transform.tag == "Player" && Input.GetKeyUp("e") && GameManager.money >= ammoPrice)
         {
+            GameManager.money -= ammoPrice;
             var ammo = hit.GetComponent<Shooting>();
             var grenade = hit.GetComponent<GrenadeThrower>();
             Debug.Log("Ammo");

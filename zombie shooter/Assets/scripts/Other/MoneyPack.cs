@@ -21,7 +21,7 @@ public class MoneyPack : MonoBehaviour {
 	{
 		var hit = coll.gameObject;
 		var hitplayer = hit.GetComponent<PlayerController>();
-		if (hitplayer != null && hit.transform.tag == "Player" && Input.GetKey("e") )
+		if (hitplayer != null && hit.transform.tag == "Player")
 		{
 			Debug.Log("money");
 			GameManager.money += Random.Range(minMoneyValue, maxMoneyValue);

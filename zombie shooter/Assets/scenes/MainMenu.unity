@@ -479,6 +479,11 @@ Prefab:
       propertyPath: m_LocalScale.z
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 114021947018566888, guid: ad9fc965263dcc443945d0c42199d18f,
+        type: 2}
+      propertyPath: m_Text
+      value: REACH ROUND 50
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: ad9fc965263dcc443945d0c42199d18f, type: 2}
   m_IsPrefabParent: 0
@@ -598,6 +603,11 @@ Prefab:
         type: 2}
       propertyPath: m_LocalScale.z
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 114235833623761290, guid: 1e3dd03e60d627044a23d5ba6b4a0e14,
+        type: 2}
+      propertyPath: m_Text
+      value: REACH ROUND 10
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 1e3dd03e60d627044a23d5ba6b4a0e14, type: 2}

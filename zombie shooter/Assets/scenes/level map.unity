@@ -2241,6 +2241,10 @@ Prefab:
       propertyPath: m_LocalScale.y
       value: 0.3
       objectReference: {fileID: 0}
+    - target: {fileID: 11430618, guid: 4cd2545a068ae244da86cdc80ccebc47, type: 2}
+      propertyPath: healthPrice
+      value: 1000
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6020532, guid: 4cd2545a068ae244da86cdc80ccebc47, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 4cd2545a068ae244da86cdc80ccebc47, type: 2}
@@ -4397,6 +4401,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a5d103425846cf64fa36b0a840dafc14, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ammoPrice: 1000
 --- !u!61 &746233875
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4409,7 +4414,7 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: 0.58774376}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4420,7 +4425,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 7, y: 5}
+  m_Size: {x: 7, y: 3.8245125}
   m_EdgeRadius: 0
 --- !u!212 &746233876
 SpriteRenderer:
@@ -4850,7 +4855,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &782149735
 RectTransform:
   m_ObjectHideFlags: 0
@@ -20947,7 +20952,6 @@ MonoBehaviour:
   - {fileID: 1977906726163866, guid: b3070362bfe0b3c428fdabc4bce173e0, type: 2}
   spawnDelay: 2
   defaultSpawnNum: 2
-  waveNum: 1
   waveText: {fileID: 977984068}
   timer: 10
   timerText: {fileID: 2066319922}
@@ -21884,7 +21888,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &2028166687
 RectTransform:
   m_ObjectHideFlags: 0
@@ -21900,7 +21904,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 250, y: -225}
+  m_AnchoredPosition: {x: -70, y: -225}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2028166688
@@ -21935,7 +21939,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 'Ammo Price: 500'
+  m_Text: 'Ammo Price: 1000'
 --- !u!222 &2028166689
 CanvasRenderer:
   m_ObjectHideFlags: 0
