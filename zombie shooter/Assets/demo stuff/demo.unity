@@ -1149,9 +1149,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1970299893}
   - component: {fileID: 1970299892}
+  - component: {fileID: 1970299894}
   - component: {fileID: 1970299891}
-  - component: {fileID: 1970299890}
-  - component: {fileID: 1970299889}
+  - component: {fileID: 1970299895}
   m_Layer: 0
   m_Name: SoldierColored3
   m_TagString: Untagged
@@ -1159,91 +1159,8 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1970299889
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1970299888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a3cf1798411790e44ac163003fedd180, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  staticEnvLayerMask:
-    serializedVersion: 2
-    m_Bits: 256
-  envCheckDistance: 0.08
-  minDistanceFromEnv: 0.04
-  numOfIterations: 2
-  enableOneWayPlatforms: 0
-  oneWayPlatformsAreWalls: 0
-  movingPlatformLayerMask:
-    serializedVersion: 2
-    m_Bits: 0
-  additionalRaycastsPerSide: 1
-  groundSpeed: 8
-  timeToGroundSpeed: 0.1
-  groundStopDistance: 0.333
-  airSpeed: 5
-  changeDirectionInAir: 1
-  timeToAirSpeed: 0.2
-  airStopDistance: 2
-  fallSpeed: 16
-  gravityMultiplier: 2
-  fastFallSpeed: 32
-  fastFallGravityMultiplier: 4
-  ladderSpeed: 5
-  jumpHeight: 1.5
-  extraJumpHeight: 1.5
-  numOfAirJumps: 1
-  jumpWindowWhenFalling: 0.2
-  jumpWindowWhenActivated: 0.2
-  enableSlopes: 0
-  angleAllowedForMoving: 50
-  minimumSpeedToMoveUpSlipperySlope: 7.5
-  changeSpeedOnSlopes: 1
-  speedMultiplierOnSlope: 0.75
-  stickOnGround: 1
-  distanceToCheckToStick: 0.4
-  enableWallJumps: 1
-  wallJumpMultiplier: 1
-  wallJumpAngle: 70
-  enableWallSticks: 1
-  wallSticksDuration: 1
-  enableWallSlides: 1
-  wallSlideSpeed: 5
-  timeToWallSlideSpeed: 3
-  enableCornerGrabs: 1
-  cornerGrabDuration: 1000
-  cornerJumpMultiplier: 0.5
-  cornerDistanceCheck: 0.2
-  normalizedValidWallInteraction: 0.2
-  ignoreMovementAfterJump: 0.2
-  wallInteractionCooldown: 0.1
-  wallInteractionThreshold: 0.5
-  enableDashes: 1
-  dashDistance: 3
-  dashDuration: 0.2
-  dashCooldown: 0.76
-  dashEasingFunction: 1
-  endDashNoGravityDuration: 0.1
-  movingPlatformDebug: 0
-  iterationDebug: 0
-  slopeNormal: {x: 0, y: 0}
---- !u!114 &1970299890
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1970299888}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 14fd83b68d748924eae0e9cc7c605bcc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!61 &1970299891
-BoxCollider2D:
+--- !u!70 &1970299891
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
@@ -1254,19 +1171,9 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.11904478, y: -0.059526443}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 20.48, y: 20.48}
-    newSize: {x: 20.48, y: 20.48}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 8.575532, y: 15.122988}
-  m_EdgeRadius: 0
+  m_Offset: {x: -0.27268738, y: -0.49082994}
+  m_Size: {x: 7.936489, y: 15.789816}
+  m_Direction: 0
 --- !u!212 &1970299892
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1325,3 +1232,40 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!50 &1970299894
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1970299888}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 1
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
+--- !u!95 &1970299895
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1970299888}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
