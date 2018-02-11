@@ -29,14 +29,17 @@ public class GameManager : MonoBehaviour
 	//ScoreStreaks
 	public Image Shield;
 	public Text shieldText;
-	public GameObject shieldPrefab;
+	public Text shieldTimer;
+    float sDTimer = 60;
 	public Image extraDamage;
 	public Text extraDamageText;
-	public GameObject extraDamagePrefab;
+	public Text extraDamageTimer;
+    float eDTimer = 60;
 	public Image atomicBomb;
 	public Text atomicBombText;
 	public GameObject atomicBombPrefab;
     public Transform atomBombSpawn;
+    GameObject[] zombie_1;
 
     //Rounds
     public Transform[] spawnPoints;
@@ -180,15 +183,15 @@ public class GameManager : MonoBehaviour
 	void ScoreStreaks ()
 	{
 		//Money for scorestreaks
-		/*if (money >= 10450) 
+		if (money >= 10450) 
 		{
 			shieldText.text = "Z - 10450/10450$";
-			Shield.color = new Color32 (255, 255, 255, 255);
+			Shield.color = new Color32 (255, 0, 0, 255);
 		}
         else
         {
-            Shield.color = new Color32(255, 255, 255, 130);
-        }*/
+            Shield.color = new Color32(255, 0, 0, 130);
+        }
 		if (money >= 15000) 
 		{
 			extraDamageText.text = "X - 15000/15000$";
@@ -210,16 +213,18 @@ public class GameManager : MonoBehaviour
 
         //Activating && subtracting money
         //Shield
-        /*if (Input.GetKeyDown (KeyCode.Z) && money >= 10450) 
+        if (Input.GetKeyDown (KeyCode.Z) && money >= 10450) 
 		{
 			money = (int)(money - 10450);
 			StartCoroutine(ShieldSS());
-		}*/
+            shieldTimer.text = sDTimer.ToString();
+		}
 		//ExtraDamage
 		if (Input.GetKeyDown (KeyCode.X) && money >= 258500) 
 		{
 			money = (int)(money - 258500);
 			StartCoroutine(ExtraDam());
+            extraDamageTimer.text = eDTimer.ToString();
 		}
 		//AtomicBomb
 		if(Input.GetKeyDown(KeyCode.C) && money >= 1234567) 
@@ -259,19 +264,33 @@ public class GameManager : MonoBehaviour
 		StartCoroutine (SpawnZombies (waveNum));
 	}
 
-	/*IEnumerator ShieldSS () 
+	IEnumerator ShieldSS () 
 	{
-		shieldPrefab.SetActive (true);
-		yield return new WaitForSeconds (60);
-		shieldPrefab.SetActive (false);
-		StopCoroutine (ShieldSS ());
-	}*/
+        if (zombie_1 == null)
+        {
+            zombie_1 = GameObject.FindGameObjectsWithTag("Enemy");
+        }
+        for (var i = 0; i < zombie_1.Length; i++)
+        {
+            zombie_1[i].GetComponent<ZombieDamage>().damage = 0;
+            Debug.Log("zomDamage is 0");
+        }
+        //shieldPrefab.SetActive (true);
+        yield return new WaitForSeconds (sDTimer);
+        //shieldPrefab.SetActive (false);
+        for (var i = 0; i < zombie_1.Length; i++)
+        {
+            zombie_1[i].GetComponent<ZombieDamage>().damage = 10;
+            Debug.Log("zomDamage is 10");
+        }
+        StopCoroutine (ShieldSS ());
+	}
 
 	IEnumerator ExtraDam () 
 	{
 		bullet.damage = 1000;
-		yield return new WaitForSeconds (60);
-		bullet.damage = 10;
+		yield return new WaitForSeconds (eDTimer);
+		bullet.damage = 30;
 		StopCoroutine (ExtraDam ());
 	}
 
