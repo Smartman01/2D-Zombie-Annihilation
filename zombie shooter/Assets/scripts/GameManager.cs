@@ -30,11 +30,11 @@ public class GameManager : MonoBehaviour
 	public Image Shield;
 	public Text shieldText;
 	public Text shieldTimer;
-    float sDTimer = 60;
+    float sDTimer = 60f;
 	public Image extraDamage;
 	public Text extraDamageText;
 	public Text extraDamageTimer;
-    float eDTimer = 60;
+    float eDTimer = 60f;
 	public Image atomicBomb;
 	public Text atomicBombText;
 	public GameObject atomicBombPrefab;
@@ -110,7 +110,7 @@ public class GameManager : MonoBehaviour
         killText.text = "Kills - " + kills;
         PlayerPrefs.SetInt("Kills", kills);
 		timerText.text = timer + "s";
-		waveText.text = "Wave - " + waveNum;
+        waveText.text = "Wave - " + waveNum;
 		shieldText.text = "Z - " + money + "/10450$";
 		extraDamageText.text = "X - " + money + "/15000$";
 		atomicBombText.text = "C - " + money + "/1234567$";
@@ -129,36 +129,7 @@ public class GameManager : MonoBehaviour
 				defaultSpawnNum = (int)(defaultSpawnNum * 1.5);
 				moneyPack.maxMoneyValue = (int)(moneyPack.maxMoneyValue * 1.5);
 			}
-			//int zombiesIndex = zombieHealth.Length;
-			//zombieHealth[zombiesIndex].currentHealth = (int)(zombieHealth[zombiesIndex].currentHealth + 10);
-			/*for (var i = 0; i < zombiesIndex; i++) 
-			{
-				//Debug.Log("add Health");
-				zombies[zombiesIndex].GetComponent<ZombieHealth>().currentHealth += 10;
-			}
-            if(zombiesAddHealth == null)
-            {
-                zombiesAddHealth = GameObject.FindGameObjectsWithTag("Enemy");
-            }
-			for (var i = 0; i < zombiesAddHealth.Length; i++) 
-			{
-                zombiesAddHealth[i].GetComponent<ZombieHealth>().a;
-            }*/
 		}
-
-        /*if(health.currentHealth <= 0)
-        {
-            // .. increment a timer to count up to restarting.
-                restartTimer += Time.deltaTime;
-
-                // .. if it reaches the restart delay...
-                if (restartTimer >= restartDelay)
-                {
-                // .. then reload the currently loaded level.
-                    SceneManager.LoadScene(1);
-                }
-            StopAllCoroutines();
-        }*/
 
         if (Input.GetKey("l"))
         {
@@ -217,17 +188,19 @@ public class GameManager : MonoBehaviour
 		{
 			money = (int)(money - 10450);
 			StartCoroutine(ShieldSS());
+            sDTimer -= Time.deltaTime;
             shieldTimer.text = sDTimer.ToString();
-		}
-		//ExtraDamage
-		if (Input.GetKeyDown (KeyCode.X) && money >= 258500) 
+        }
+        //ExtraDamage
+        if (Input.GetKeyDown (KeyCode.X) && money >= 258500) 
 		{
 			money = (int)(money - 258500);
 			StartCoroutine(ExtraDam());
+            eDTimer -= Time.deltaTime;
             extraDamageTimer.text = eDTimer.ToString();
-		}
-		//AtomicBomb
-		if(Input.GetKeyDown(KeyCode.C) && money >= 1234567) 
+        }
+        //AtomicBomb
+        if (Input.GetKeyDown(KeyCode.C) && money >= 1234567) 
 		{
 			money = (int)(money - 1234567);
             Instantiate(atomicBombPrefab, atomBombSpawn.position, transform.rotation);
@@ -284,14 +257,16 @@ public class GameManager : MonoBehaviour
             Debug.Log("zomDamage is 10");
         }
         StopCoroutine (ShieldSS ());
+        sDTimer = 60f;
 	}
 
 	IEnumerator ExtraDam () 
 	{
-		bullet.damage = 1000;
+        bullet.damage = 1000;
 		yield return new WaitForSeconds (eDTimer);
 		bullet.damage = 30;
 		StopCoroutine (ExtraDam ());
+        eDTimer = 60f;
 	}
 
     void Achievements()
