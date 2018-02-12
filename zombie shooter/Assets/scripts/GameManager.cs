@@ -30,11 +30,11 @@ public class GameManager : MonoBehaviour
 	public Image Shield;
 	public Text shieldText;
 	public Text shieldTimer;
-    float sDTimer = 60f;
+    float sDTimer = 60.00f;
 	public Image extraDamage;
 	public Text extraDamageText;
 	public Text extraDamageTimer;
-    float eDTimer = 60f;
+    float eDTimer = 60.00f;
 	public Image atomicBomb;
 	public Text atomicBombText;
 	public GameObject atomicBombPrefab;
@@ -65,11 +65,6 @@ public class GameManager : MonoBehaviour
     public GameObject achievement_3;
     public GameObject achievement_4;
     public GameObject achievement_5;
-
-
-    //PauseMenu
-
-    //DeathMenu
 
 
     public float restartDelay = 5f;
@@ -109,7 +104,7 @@ public class GameManager : MonoBehaviour
 		moneyText.text = "- " + money;
         killText.text = "Kills - " + kills;
         PlayerPrefs.SetInt("Kills", kills);
-		timerText.text = timer + "s";
+		timerText.text = Mathf.Round(timer) + "s";
         waveText.text = "Wave - " + waveNum;
 		shieldText.text = "Z - " + money + "/10450$";
 		extraDamageText.text = "X - " + money + "/15000$";
@@ -187,17 +182,18 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown (KeyCode.Z) && money >= 10450) 
 		{
 			money = (int)(money - 10450);
-			StartCoroutine(ShieldSS());
-            sDTimer -= Time.deltaTime;
-            shieldTimer.text = sDTimer.ToString();
+            Shields();
+			//StartCoroutine("ShieldSS", 60);
+            shieldTimer.text = Mathf.Round(sDTimer) + "s";
         }
         //ExtraDamage
         if (Input.GetKeyDown (KeyCode.X) && money >= 258500) 
 		{
 			money = (int)(money - 258500);
-			StartCoroutine(ExtraDam());
-            eDTimer -= Time.deltaTime;
-            extraDamageTimer.text = eDTimer.ToString();
+            ExtraDam();
+            extraDamageTimer.text = Mathf.Round(eDTimer) + "s";
+            //StartCoroutine("ExtraDam", 60);
+            //eDTimer -= Time.deltaTime;
         }
         //AtomicBomb
         if (Input.GetKeyDown(KeyCode.C) && money >= 1234567) 
@@ -237,8 +233,34 @@ public class GameManager : MonoBehaviour
 		StartCoroutine (SpawnZombies (waveNum));
 	}
 
-	IEnumerator ShieldSS () 
+	/*IEnumerator ShieldSS (float waitTime) 
 	{
+
+        //shieldPrefab.SetActive (true);
+        yield return new WaitForSeconds (waitTime);
+        shieldTimer.text = sDTimer.ToString();
+        //shieldPrefab.SetActive (false);
+        for (var i = 0; i < zombie_1.Length; i++)
+        {
+            zombie_1[i].GetComponent<ZombieDamage>().damage = 10;
+            Debug.Log("zomDamage is 10");
+        }
+        StopCoroutine ("ShieldSS");
+        //sDTimer = 60f;
+	}
+
+    IEnumerator ExtraDam(float waitTime) 
+	{
+        bullet.damage = 1000;
+		yield return new WaitForSeconds (waitTime);
+        extraDamageTimer.text = waitTime.ToString();
+        bullet.damage = 30;
+		StopCoroutine ("ExtraDam");
+        //eDTimer = 60f;
+	}*/
+
+    void Shields()
+    {
         if (zombie_1 == null)
         {
             zombie_1 = GameObject.FindGameObjectsWithTag("Enemy");
@@ -248,26 +270,28 @@ public class GameManager : MonoBehaviour
             zombie_1[i].GetComponent<ZombieDamage>().damage = 0;
             Debug.Log("zomDamage is 0");
         }
-        //shieldPrefab.SetActive (true);
-        yield return new WaitForSeconds (sDTimer);
-        //shieldPrefab.SetActive (false);
-        for (var i = 0; i < zombie_1.Length; i++)
-        {
-            zombie_1[i].GetComponent<ZombieDamage>().damage = 10;
-            Debug.Log("zomDamage is 10");
-        }
-        StopCoroutine (ShieldSS ());
-        sDTimer = 60f;
-	}
 
-	IEnumerator ExtraDam () 
-	{
+        sDTimer -= Time.deltaTime;
+
+        if(sDTimer <= 0)
+        {
+            for (var i = 0; i < zombie_1.Length; i++)
+            {
+                zombie_1[i].GetComponent<ZombieDamage>().damage = 10;
+                Debug.Log("zomDamage is 10");
+            }
+        }
+    }
+
+    void ExtraDam()
+    {
         bullet.damage = 1000;
-		yield return new WaitForSeconds (eDTimer);
-		bullet.damage = 30;
-		StopCoroutine (ExtraDam ());
-        eDTimer = 60f;
-	}
+        eDTimer -= Time.deltaTime;
+        if(eDTimer <= 0)
+        {
+            bullet.damage = 30;
+        }
+    }
 
     void Achievements()
     {
