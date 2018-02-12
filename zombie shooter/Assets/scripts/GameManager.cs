@@ -30,11 +30,13 @@ public class GameManager : MonoBehaviour
 	public Image Shield;
 	public Text shieldText;
 	public Text shieldTimer;
-    float sDTimer = 60.00f;
+    public float sDTimer = 60.00f;
+    bool shieldBool = false;
 	public Image extraDamage;
 	public Text extraDamageText;
 	public Text extraDamageTimer;
-    float eDTimer = 60.00f;
+    public float eDTimer = 60.00f;
+    bool eDBool = false;
 	public Image atomicBomb;
 	public Text atomicBombText;
 	public GameObject atomicBombPrefab;
@@ -146,6 +148,25 @@ public class GameManager : MonoBehaviour
             achievement_5.transform.Find("Lock (4)").gameObject.SetActive(true);
             achievement_5.transform.Find("Checkmark (4)").gameObject.SetActive(false);
         }
+
+        //timer for scorestreaks
+        if(shieldBool)
+        {
+            sDTimer -= Time.deltaTime;
+        }
+        else if(sDTimer <= 0)
+        {
+            sDTimer = 60;
+        }
+
+        if (eDBool)
+        {
+            eDTimer -= Time.deltaTime;
+        }
+        else if (eDTimer <= 0)
+        {
+            eDTimer = 60;
+        }
     }
 	
 	void ScoreStreaks ()
@@ -186,6 +207,7 @@ public class GameManager : MonoBehaviour
 			money = (int)(money - 10450);
             //Shields();
 			StartCoroutine("ShieldSS", 60);
+            //sDTimer -= Time.deltaTime;
         }
         //ExtraDamage
         if (Input.GetKeyDown (KeyCode.X) && money >= 258500) 
@@ -235,7 +257,9 @@ public class GameManager : MonoBehaviour
 
 	IEnumerator ShieldSS (float waitTime) 
 	{
-	if(zombie_1 == null)
+        shieldBool = true;
+
+	    if(zombie_1 == null)
         {
             zombie_1 = GameObject.FindGameObjectsWithTag("Enemy");
         }
@@ -244,9 +268,7 @@ public class GameManager : MonoBehaviour
             zombie_1[i].GetComponent<ZombieDamage>().damage = 0;
             Debug.Log("zomDamage is 0");
         }
-        //shieldPrefab.SetActive (true);
-	
-	sDTimer -= Time.deltaTime;
+        //shieldPrefab.SetActive (true);	
         yield return new WaitForSeconds (waitTime);
         //shieldTimer.text = sDTimer.ToString();
         //shieldPrefab.SetActive (false);
@@ -255,17 +277,19 @@ public class GameManager : MonoBehaviour
             zombie_1[i].GetComponent<ZombieDamage>().damage = 10;
             Debug.Log("zomDamage is 10");
         }
+        shieldBool = false;
         StopCoroutine ("ShieldSS");
         //sDTimer = 60f;
 	}
 
     IEnumerator ExtraDam(float waitTime) 
 	{
+        eDBool = true;
         bullet.damage = 1000;
-	eDTimer -= Time.deltaTime;
 		yield return new WaitForSeconds (waitTime);
         //extraDamageTimer.text = waitTime.ToString();
         bullet.damage = 30;
+        eDBool = false;
 		StopCoroutine ("ExtraDam");
         //eDTimer = 60f;
 	}
