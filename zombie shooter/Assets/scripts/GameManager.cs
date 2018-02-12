@@ -105,6 +105,8 @@ public class GameManager : MonoBehaviour
         killText.text = "Kills - " + kills;
         PlayerPrefs.SetInt("Kills", kills);
 		timerText.text = Mathf.Round(timer) + "s";
+		extraDamageTimer.text = Mathf.Round(eDTimer) + "s";
+		shieldTimer.text = Mathf.Round(sDTimer) + "s";
         waveText.text = "Wave - " + waveNum;
 		shieldText.text = "Z - " + money + "/10450$";
 		extraDamageText.text = "X - " + money + "/15000$";
@@ -182,17 +184,15 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown (KeyCode.Z) && money >= 10450) 
 		{
 			money = (int)(money - 10450);
-            Shields();
-			//StartCoroutine("ShieldSS", 60);
-            shieldTimer.text = Mathf.Round(sDTimer) + "s";
+            //Shields();
+			StartCoroutine("ShieldSS", 60);
         }
         //ExtraDamage
         if (Input.GetKeyDown (KeyCode.X) && money >= 258500) 
 		{
 			money = (int)(money - 258500);
-            ExtraDam();
-            extraDamageTimer.text = Mathf.Round(eDTimer) + "s";
-            //StartCoroutine("ExtraDam", 60);
+            //ExtraDam();
+            StartCoroutine("ExtraDam", 60);
             //eDTimer -= Time.deltaTime;
         }
         //AtomicBomb
@@ -233,12 +233,22 @@ public class GameManager : MonoBehaviour
 		StartCoroutine (SpawnZombies (waveNum));
 	}
 
-	/*IEnumerator ShieldSS (float waitTime) 
+	IEnumerator ShieldSS (float waitTime) 
 	{
-
+if(zombie_1 == null)
+        {
+            zombie_1 = GameObject.FindGameObjectsWithTag("Enemy");
+        }
+        for (var i = 0; i < zombie_1.Length; i++)
+        {
+            zombie_1[i].GetComponent<ZombieDamage>().damage = 0;
+            Debug.Log("zomDamage is 0");
+        }
         //shieldPrefab.SetActive (true);
+	
+	sDTimer -= Time.deltaTime;
         yield return new WaitForSeconds (waitTime);
-        shieldTimer.text = sDTimer.ToString();
+        //shieldTimer.text = sDTimer.ToString();
         //shieldPrefab.SetActive (false);
         for (var i = 0; i < zombie_1.Length; i++)
         {
@@ -252,16 +262,17 @@ public class GameManager : MonoBehaviour
     IEnumerator ExtraDam(float waitTime) 
 	{
         bullet.damage = 1000;
+	eDTimer -= Time.deltaTime;
 		yield return new WaitForSeconds (waitTime);
-        extraDamageTimer.text = waitTime.ToString();
+        //extraDamageTimer.text = waitTime.ToString();
         bullet.damage = 30;
 		StopCoroutine ("ExtraDam");
         //eDTimer = 60f;
-	}*/
+	}
 
-    void Shields()
+    /*void Shields()
     {
-        if (zombie_1 == null)
+        if(zombie_1 == null)
         {
             zombie_1 = GameObject.FindGameObjectsWithTag("Enemy");
         }
@@ -291,7 +302,7 @@ public class GameManager : MonoBehaviour
         {
             bullet.damage = 30;
         }
-    }
+    }*/
 
     void Achievements()
     {
