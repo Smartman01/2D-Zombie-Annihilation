@@ -235,7 +235,7 @@ public class GameManager : MonoBehaviour
 
 	IEnumerator ShieldSS (float waitTime) 
 	{
-if(zombie_1 == null)
+	if(zombie_1 == null)
         {
             zombie_1 = GameObject.FindGameObjectsWithTag("Enemy");
         }
