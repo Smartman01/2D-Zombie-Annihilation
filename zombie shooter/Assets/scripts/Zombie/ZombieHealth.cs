@@ -15,6 +15,8 @@ public class ZombieHealth : MonoBehaviour {
 	public GameObject money;
 	public Transform moneySpawn;
 
+    bool healthBool = true;
+
     //public GameManager gameManager;
 
     //public bool hellHound;
@@ -24,14 +26,19 @@ public class ZombieHealth : MonoBehaviour {
     public GameObject Player;
 
     void Start()
-	{
+    {
         //maxHealth = 100;
 
         Player = GameObject.Find("Player");
-        
+
         currentHealth = maxHealth /*+ addHealth*/;
 
-        if (GameManager.waveNum > 1)
+        if (maxHealth == 200)
+        {
+            healthBool = false;
+        }
+
+        if (GameManager.waveNum > 1 && healthBool == true)
         {
             for(var i = 0; i <  GameManager.waveNum; i++)
             {

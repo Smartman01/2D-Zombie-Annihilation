@@ -173,7 +173,7 @@ public class Shooting : MonoBehaviour
 
     void md90()
     {
-        if (weapon.GetComponent<SpriteRenderer>().sprite.name == "gun_aims_pm_md90" && Gamemanager.eDBool = false)
+        if (weapon.GetComponent<SpriteRenderer>().sprite.name == "gun_aims_pm_md90" && GameManager.eDBool == false)
         {
             //clip = 30;
             //reserve = 200;
@@ -184,7 +184,7 @@ public class Shooting : MonoBehaviour
 
     void ak47()
     {
-        if (weapon.GetComponent<SpriteRenderer>().sprite.name == "gun_ak47" && Gamemanager.eDBool = false)
+        if (weapon.GetComponent<SpriteRenderer>().sprite.name == "gun_ak47" && GameManager.eDBool == false)
         {
             //clip = 55;
             //reserve = 250;
@@ -195,7 +195,7 @@ public class Shooting : MonoBehaviour
 
     void an94()
     {
-        if (weapon.GetComponent<SpriteRenderer>().sprite.name == "gun_an94" && Gamemanager.eDBool = false)
+        if (weapon.GetComponent<SpriteRenderer>().sprite.name == "gun_an94" && GameManager.eDBool == false)
         {
             //clip = 30;
             //reserve = 230;
@@ -206,7 +206,7 @@ public class Shooting : MonoBehaviour
 
     void ar15()
     {
-        if (weapon.GetComponent<SpriteRenderer>().sprite.name == "gun_ar15" && Gamemanager.eDBool = false)
+        if (weapon.GetComponent<SpriteRenderer>().sprite.name == "gun_ar15" && GameManager.eDBool == false)
         {
             //clip = 30;
             //reserve = 201;
@@ -217,7 +217,7 @@ public class Shooting : MonoBehaviour
 
     void as_val()
     {
-        if (weapon.GetComponent<SpriteRenderer>().sprite.name == "gun_as_val" && Gamemanager.eDBool = false)
+        if (weapon.GetComponent<SpriteRenderer>().sprite.name == "gun_as_val" && GameManager.eDBool == false)
         {
             //clip = 30;
             //reserve = 220;
@@ -228,7 +228,7 @@ public class Shooting : MonoBehaviour
 
     void mp5sd()
     {
-        if (weapon.GetComponent<SpriteRenderer>().sprite.name == "gun_hk_mp5sd" && Gamemanager.eDBool = false)
+        if (weapon.GetComponent<SpriteRenderer>().sprite.name == "gun_hk_mp5sd" && GameManager.eDBool == false)
         {
             //clip = 30;
             //reserve = 100;
@@ -239,7 +239,7 @@ public class Shooting : MonoBehaviour
 
     void ithace37()
     {
-        if (weapon.GetComponent<SpriteRenderer>().sprite.name == "gun_ithace37" && Gamemanager.eDBool = false)
+        if (weapon.GetComponent<SpriteRenderer>().sprite.name == "gun_ithace37" && GameManager.eDBool == false)
         {
             //clip = 30;
             //reserve = 100;
@@ -250,7 +250,7 @@ public class Shooting : MonoBehaviour
 
     void m21_black()
     {
-        if (weapon.GetComponent<SpriteRenderer>().sprite.name == "gun_m21_black" && Gamemanager.eDBool = false)
+        if (weapon.GetComponent<SpriteRenderer>().sprite.name == "gun_m21_black" && GameManager.eDBool == false)
         {
             //clip = 30;
             //reserve = 220;
@@ -261,7 +261,7 @@ public class Shooting : MonoBehaviour
 
     void famas_g2()
     {
-        if (weapon.GetComponent<SpriteRenderer>().sprite.name == "gun_fa_mas_g2" && Gamemanager.eDBool = false)
+        if (weapon.GetComponent<SpriteRenderer>().sprite.name == "gun_fa_mas_g2" && GameManager.eDBool == false)
         {
             //clip = 30;
             //reserve = 220;
@@ -272,7 +272,7 @@ public class Shooting : MonoBehaviour
 
     void minimi()
     {
-        if (weapon.GetComponent<SpriteRenderer>().sprite.name == "gun_fn_minimi" && Gamemanager.eDBool = false)
+        if (weapon.GetComponent<SpriteRenderer>().sprite.name == "gun_fn_minimi" && GameManager.eDBool == false)
         {
             //clip = 30;
             //reserve = 100;
@@ -283,7 +283,7 @@ public class Shooting : MonoBehaviour
 
     void mac11()
     {
-        if (weapon.GetComponent<SpriteRenderer>().sprite.name == "gun_ingram_mac11" && Gamemanager.eDBool = false)
+        if (weapon.GetComponent<SpriteRenderer>().sprite.name == "gun_ingram_mac11" && GameManager.eDBool == false)
         {
             //clip = 30;
             //reserve = 240;
@@ -294,7 +294,7 @@ public class Shooting : MonoBehaviour
 
     void mossberg_590()
     {
-        if (weapon.GetComponent<SpriteRenderer>().sprite.name == "gun_mossberg_590" && Gamemanager.eDBool = false)
+        if (weapon.GetComponent<SpriteRenderer>().sprite.name == "gun_mossberg_590" && GameManager.eDBool == false)
         {
             //clip = 30;
             //reserve = 208;
@@ -305,7 +305,7 @@ public class Shooting : MonoBehaviour
 
     void winchester_1300()
     {
-        if (weapon.GetComponent<SpriteRenderer>().sprite.name == "gun_winchester_1300" && Gamemanager.eDBool = false)
+        if (weapon.GetComponent<SpriteRenderer>().sprite.name == "gun_winchester_1300" && GameManager.eDBool == false)
         {
             //clip = 30;
             //reserve = 20;

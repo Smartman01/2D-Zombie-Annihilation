@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
 	public static int money;
 	public Text moneyText;
 	public MoneyPack moneyPack;
+    bool moneyNumBool = true;
 	
 	//ScoreStreaks
 	public Image Shield;
@@ -36,7 +37,7 @@ public class GameManager : MonoBehaviour
 	public Text extraDamageText;
 	public Text extraDamageTimer;
     public float eDTimer = 60.00f;
-    bool eDBool = false;
+    public static bool eDBool = false;
 	public Image atomicBomb;
 	public Text atomicBombText;
 	public GameObject atomicBombPrefab;
@@ -56,6 +57,7 @@ public class GameManager : MonoBehaviour
 	public static bool isSpawning = false;
     //public ZombieHealth[] zombieHealth;
     //GameObject[] zombiesAddHealth;
+    bool zomNumBool = true;
 
     //Timer
     public float timer = 60.00f;
@@ -119,14 +121,33 @@ public class GameManager : MonoBehaviour
 		{
 			timerText.text = "";
 		}
+
+        if(defaultSpawnNum == 200)
+        {
+            zomNumBool = false;
+        }
+
+        if(moneyPack.maxMoneyValue == 5000) 
+        {
+            moneyNumBool = false;
+        }
+
 		if (zombieCounter == 0 && !isSpawning) 
 		{
 			timer -= Time.deltaTime;
 			if(timer <= 0)
 			{
 				UpdateWave ();
-				defaultSpawnNum = (int)(defaultSpawnNum * 1.5);
-				moneyPack.maxMoneyValue = (int)(moneyPack.maxMoneyValue * 1.5);
+                if(zomNumBool)
+                {
+                    defaultSpawnNum = (int)(defaultSpawnNum * 1.5);
+                    Debug.Log("zomNum is inc");
+                }
+                if(moneyNumBool)
+                {
+                    moneyPack.maxMoneyValue = (int)(moneyPack.maxMoneyValue * 1.5);
+                    Debug.Log("money is inc");
+                }
 			}
 		}
 
@@ -205,7 +226,6 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown (KeyCode.Z) && money >= 10450) 
 		{
 			money = (int)(money - 10450);
-            //Shields();
 			StartCoroutine("ShieldSS", 60);
             //sDTimer -= Time.deltaTime;
         }
@@ -213,7 +233,6 @@ public class GameManager : MonoBehaviour
         if (Input.GetKeyDown (KeyCode.X) && money >= 258500) 
 		{
 			money = (int)(money - 258500);
-            //ExtraDam();
             StartCoroutine("ExtraDam", 60);
             //eDTimer -= Time.deltaTime;
         }
@@ -286,47 +305,15 @@ public class GameManager : MonoBehaviour
 	{
         eDBool = true;
         bullet.damage = 1000;
+        Debug.Log("bullet dam is 1000");
 		yield return new WaitForSeconds (waitTime);
+        Debug.Log("bullet dam is normal");
         //extraDamageTimer.text = waitTime.ToString();
-        bullet.damage = 30;
+        //bullet.damage = 30;
         eDBool = false;
 		StopCoroutine ("ExtraDam");
         //eDTimer = 60f;
 	}
-
-    /*void Shields()
-    {
-        if(zombie_1 == null)
-        {
-            zombie_1 = GameObject.FindGameObjectsWithTag("Enemy");
-        }
-        for (var i = 0; i < zombie_1.Length; i++)
-        {
-            zombie_1[i].GetComponent<ZombieDamage>().damage = 0;
-            Debug.Log("zomDamage is 0");
-        }
-
-        sDTimer -= Time.deltaTime;
-
-        if(sDTimer <= 0)
-        {
-            for (var i = 0; i < zombie_1.Length; i++)
-            {
-                zombie_1[i].GetComponent<ZombieDamage>().damage = 10;
-                Debug.Log("zomDamage is 10");
-            }
-        }
-    }
-
-    void ExtraDam()
-    {
-        bullet.damage = 1000;
-        eDTimer -= Time.deltaTime;
-        if(eDTimer <= 0)
-        {
-            bullet.damage = 30;
-        }
-    }*/
 
     void Achievements()
     {
