@@ -80,6 +80,11 @@ public class Grenade : MonoBehaviour {
             Instantiate(explosionEffect, transform.position, transform.rotation);
             Destroy(gameObject);
         }
+
+        if (coll.gameObject.tag == "Player" || coll.gameObject.tag == "Ground")
+        {
+            Physics2D.IgnoreCollision(coll.collider, coll.collider);
+        }
     }
 }
 

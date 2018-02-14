@@ -116,6 +116,5 @@ public class AtomBomb : MonoBehaviour {
                 Destroy(gameObject);
             }
         }
-        
     }
 }
