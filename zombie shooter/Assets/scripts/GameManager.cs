@@ -14,7 +14,7 @@ public class GameManager : MonoBehaviour
 	public static int score;
 	// The player's score.
 	public Text scoreText;
-    public Text highScoreText;
+    public  Text highScoreText;
     public int hiScore;
     //string highScoreKey = "HighScore";
 	// Reference to the Text component.
@@ -150,25 +150,6 @@ public class GameManager : MonoBehaviour
                 }
 			}
 		}
-
-        if (Input.GetKey("l"))
-        {
-            PlayerPrefs.DeleteAll();
-            killText.text = "0";
-            kills = 0;
-            highScoreText.text = "0";
-
-            achievement_1.transform.Find("Lock").gameObject.SetActive(true);
-            achievement_1.transform.Find("Checkmark").gameObject.SetActive(false);
-            achievement_2.transform.Find("Lock (1)").gameObject.SetActive(true);
-            achievement_2.transform.Find("Checkmark (1)").gameObject.SetActive(false);
-            achievement_3.transform.Find("Lock (2)").gameObject.SetActive(true);
-            achievement_3.transform.Find("Checkmark (2)").gameObject.SetActive(false);
-            achievement_4.transform.Find("Lock (3)").gameObject.SetActive(true);
-            achievement_4.transform.Find("Checkmark (3)").gameObject.SetActive(false);
-            achievement_5.transform.Find("Lock (4)").gameObject.SetActive(true);
-            achievement_5.transform.Find("Checkmark (4)").gameObject.SetActive(false);
-        }
 
         //timer for scorestreaks
         if(shieldBool)

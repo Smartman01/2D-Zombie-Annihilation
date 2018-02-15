@@ -111,7 +111,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: REACH LEVEL 50
+  m_Text: REACH ROUND 50
 --- !u!114 &114092431187838790
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -243,7 +243,7 @@ RectTransform:
   m_GameObject: {fileID: 1044704868504990}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 224908577464145636}
   - {fileID: 224360048922585084}
