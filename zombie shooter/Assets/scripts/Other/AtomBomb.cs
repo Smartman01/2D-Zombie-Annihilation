@@ -90,13 +90,13 @@ public class AtomBomb : MonoBehaviour {
         if(countdown <= 0.5f)
         {
             var hit = coll.gameObject;
-            var hitplayer = hit.tag = "atomGround";
+            var hitplayer = hit.tag == "atomGround";
 
-            if (hitplayer != null)
+            if (hitplayer)
             {
             
                 Rigidbody2D rb2d = hit.GetComponent<Rigidbody2D>();
-                if (rb2d != null && hitplayer != null)
+                if (rb2d != null && hitplayer)
                 {
                     rb2d.AddForce(transform.position, ForceMode2D.Impulse);
                     rb2d.AddTorque(force);

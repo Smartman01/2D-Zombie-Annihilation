@@ -54,13 +54,13 @@ public class Bullet : MonoBehaviour {
     void OnCollisionEnter2D(Collision2D coll)
     {
         var hit = coll.gameObject;
-		var hitzombie = hit.gameObject.tag = "Enemy";
-        if (hitzombie != null)
+		var hitzombie = hit.gameObject.tag == "Enemy";
+        if (hitzombie)
         {
-            if (coll.gameObject.tag == "Player" || coll.gameObject.tag == "Ground")
+            /*if (coll.gameObject.tag == "Player" || coll.gameObject.tag == "Ground")
             {
                 Physics2D.IgnoreCollision(coll.collider, coll.collider);
-            }
+            }*/
             var Zomhealth = hit.GetComponent<ZombieHealth>();
             Debug.Log("hit");
             Zomhealth.ZomDamage(damage);

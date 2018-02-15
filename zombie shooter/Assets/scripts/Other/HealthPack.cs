@@ -24,9 +24,8 @@ public class HealthPack : MonoBehaviour {
         if (hitplayer != null && hit.transform.tag == "Player" && Input.GetKeyUp("e") && GameManager.money >= healthPrice && health.currentHealth < 100)
         {
             GameManager.money -= healthPrice;
-            
-            Debug.Log("Health");
             health.currentHealth = 100;
+            Debug.Log("Health");
             //Destroy(gameObject);
         }
         //Destroy(gameObject);

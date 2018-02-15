@@ -64,9 +64,9 @@ public class Grenade : MonoBehaviour {
     void OnCollisionEnter2D(Collision2D coll)
     {
         var hit = coll.gameObject;
-        var hitplayer = hit.tag = "Enemy";
+        var hitplayer = hit.tag == "Enemy";
         
-        if (hitplayer != null)
+        if (hitplayer)
         {
             var Zomhealth = hit.GetComponent<ZombieHealth>();
             Rigidbody2D rb2d = hit.GetComponent<Rigidbody2D>();
@@ -81,10 +81,10 @@ public class Grenade : MonoBehaviour {
             Destroy(gameObject);
         }
 
-        if (coll.gameObject.tag == "Player" || coll.gameObject.tag == "Ground")
+        /*if (coll.gameObject.tag == "Player" || coll.gameObject.tag == "Ground")
         {
             Physics2D.IgnoreCollision(coll.collider, coll.collider);
-        }
+        }*/
     }
 }
 

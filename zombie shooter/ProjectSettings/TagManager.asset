@@ -21,10 +21,10 @@ TagManager:
   - Player
   - Enemy
   - Static Environment
-  - 
-  - 
-  - 
-  - 
+  - Bullet
+  - Grenade
+  - Packs
+  - MB
   - 
   - 
   - 

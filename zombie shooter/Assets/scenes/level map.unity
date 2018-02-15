@@ -494,7 +494,7 @@ GameObject:
   m_Component:
   - component: {fileID: 57703325}
   - component: {fileID: 57703324}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: gun_fa_mas_g2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -534,7 +534,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 5286589236c00440eb345e6464b7ddd8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -748,7 +748,7 @@ GameObject:
   m_Component:
   - component: {fileID: 104584048}
   - component: {fileID: 104584047}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: gun_ithace37
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -788,7 +788,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: a7411a95247384798af0380019743506, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1061,7 +1061,7 @@ GameObject:
   m_Component:
   - component: {fileID: 127821468}
   - component: {fileID: 127821467}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: gun_an94
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1101,7 +1101,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: b78a8bdd0cdce40349097c0693925804, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -1569,7 +1569,7 @@ GameObject:
   m_Component:
   - component: {fileID: 214806598}
   - component: {fileID: 214806597}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: gun_springfield_m1903
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1609,7 +1609,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: f6d7bdb988fa04a26826bee35e8e2f4e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2141,7 +2141,7 @@ GameObject:
   m_Component:
   - component: {fileID: 296562276}
   - component: {fileID: 296562275}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: gun_fn_minimi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2181,7 +2181,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: a863c9b61917f4f90b6763404c9ce5a6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2256,6 +2256,10 @@ Prefab:
       propertyPath: healthPrice
       value: 1000
       objectReference: {fileID: 0}
+    - target: {fileID: 118396, guid: 4cd2545a068ae244da86cdc80ccebc47, type: 2}
+      propertyPath: m_Layer
+      value: 14
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 6020532, guid: 4cd2545a068ae244da86cdc80ccebc47, type: 2}
   m_ParentPrefab: {fileID: 100100000, guid: 4cd2545a068ae244da86cdc80ccebc47, type: 2}
@@ -2269,7 +2273,7 @@ GameObject:
   m_Component:
   - component: {fileID: 335250519}
   - component: {fileID: 335250518}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: gun_hk_mp5sd
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2309,7 +2313,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 7877a217735ce409fb977d486a4fe275, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2711,7 +2715,7 @@ GameObject:
   m_Component:
   - component: {fileID: 430740027}
   - component: {fileID: 430740026}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Barrier
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3099,7 +3103,7 @@ GameObject:
   m_Component:
   - component: {fileID: 534841238}
   - component: {fileID: 534841237}
-  m_Layer: 8
+  m_Layer: 0
   m_Name: Barrier (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3230,7 +3234,7 @@ GameObject:
   m_Component:
   - component: {fileID: 556602947}
   - component: {fileID: 556602946}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: gun_aims_pm_md90
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3270,7 +3274,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 8b9472a953313400bbe932f547529d28, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -3878,7 +3882,7 @@ GameObject:
   m_Component:
   - component: {fileID: 634710877}
   - component: {fileID: 634710876}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: gun_m32
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3918,7 +3922,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: d1a255d119521488ea8e85ccb9166313, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4319,7 +4323,7 @@ GameObject:
   m_Component:
   - component: {fileID: 734548114}
   - component: {fileID: 734548113}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: gun_as_val
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4359,7 +4363,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: e713c1b0a49d04a25ac1a8d871865bad, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -4394,7 +4398,7 @@ GameObject:
   - component: {fileID: 746233876}
   - component: {fileID: 746233874}
   - component: {fileID: 746233875}
-  m_Layer: 0
+  m_Layer: 14
   m_Name: ammoPack
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4622,7 +4626,7 @@ GameObject:
   m_Component:
   - component: {fileID: 764802755}
   - component: {fileID: 764802754}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: gun_galil_mar
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4662,7 +4666,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: e9bd3202660ec4dbdae61f1415715955, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -7915,7 +7919,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1216906002}
   - component: {fileID: 1216906001}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: gun_ak47
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7955,7 +7959,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 8a08a60017f004fec9cbcde3fda25df7, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -17608,7 +17612,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1287336068}
   - component: {fileID: 1287336067}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: gun_m21_sniper
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17648,7 +17652,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 63be64f6e455f436bb8dcf4ebd205b40, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -17792,7 +17796,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1297233786}
   - component: {fileID: 1297233787}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: GunPosition
   m_TagString: Untagged
   m_Icon: {fileID: -5765324120231101433, guid: 0000000000000000d000000000000000, type: 0}
@@ -17912,7 +17916,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1326938549}
   - component: {fileID: 1326938548}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: gun_m21_black
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17952,7 +17956,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: f0a6ebb3cb1094afb8e04451f3068cdc, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -17985,7 +17989,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1387806606}
   - component: {fileID: 1387806605}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: gun_m79
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18025,7 +18029,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 580c210b2d18e41af9e4312624635124, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -18445,7 +18449,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1527326918}
   - component: {fileID: 1527326917}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: gun_winchester_1300
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18485,7 +18489,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 12c268e335ef64c6fabdadefdc0f40bd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -18753,7 +18757,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1581123059}
   - component: {fileID: 1581123058}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: gun_mossberg_590
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18793,7 +18797,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: e8062a492e27c4d7fba3444c94f1eaee, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -18826,7 +18830,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1600552637}
   - component: {fileID: 1600552636}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: gun_ar15
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18866,7 +18870,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: a5955497f3ca1484ebb418e83a81a869, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -19590,7 +19594,7 @@ GameObject:
   - component: {fileID: 1712904890}
   - component: {fileID: 1712904892}
   - component: {fileID: 1712904893}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: MysteryBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -21020,9 +21024,11 @@ MonoBehaviour:
   Shield: {fileID: 605059953}
   shieldText: {fileID: 831098569}
   shieldTimer: {fileID: 1064487942}
+  sDTimer: 60
   extraDamage: {fileID: 2091857314}
   extraDamageText: {fileID: 545421412}
   extraDamageTimer: {fileID: 1857909901}
+  eDTimer: 60
   atomicBomb: {fileID: 344653639}
   atomicBombText: {fileID: 1778196228}
   atomicBombPrefab: {fileID: 144072, guid: ac3ca0d19c45a584faabdcbb1eadcc8f, type: 2}
@@ -22527,7 +22533,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2089134491}
   - component: {fileID: 2089134490}
-  m_Layer: 0
+  m_Layer: 15
   m_Name: gun_ingram_mac11
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -22567,7 +22573,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 10
   m_Sprite: {fileID: 21300000, guid: 2c056096703c34b87ba4f3de075dd027, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
