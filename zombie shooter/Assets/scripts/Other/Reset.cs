@@ -37,5 +37,7 @@ public class Reset : MonoBehaviour {
         achievement_4.transform.Find("Checkmark (3)").gameObject.SetActive(false);
         achievement_5.transform.Find("Lock (4)").gameObject.SetActive(true);
         achievement_5.transform.Find("Checkmark (4)").gameObject.SetActive(false);
+
+        Debug.Log("worked");
     }
 }

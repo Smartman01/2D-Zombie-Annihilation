@@ -303,7 +303,7 @@ public class GameManager : MonoBehaviour
         {
             achievement_1.transform.Find("Lock").gameObject.SetActive(false);
             achievement_1.transform.Find("Checkmark").gameObject.SetActive(true);
-            Debug.Log("working");
+            //Debug.Log("working");
         }
         if (kills == 50)
         {
