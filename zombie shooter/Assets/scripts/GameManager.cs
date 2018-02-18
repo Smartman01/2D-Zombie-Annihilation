@@ -298,7 +298,7 @@ public class GameManager : MonoBehaviour
 
     void Achievements()
     {
-        PlayerPrefs.Save();
+        //PlayerPrefs.Save();
         if(kills == 1)
         {
             achievement_1.transform.Find("Lock").gameObject.SetActive(false);

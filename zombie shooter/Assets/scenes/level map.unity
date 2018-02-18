@@ -21047,15 +21047,15 @@ MonoBehaviour:
   waveText: {fileID: 977984068}
   timer: 10
   timerText: {fileID: 2066319922}
-  achievement_1: {fileID: 1504027761883948, guid: 62e831aa5a95f7a42a17cd9b9afc5f2b,
+  achievement_1: {fileID: 1166085962680352, guid: fb17048385d1b6948b8d3b9f08c5792e,
     type: 2}
-  achievement_2: {fileID: 1738905074560538, guid: a5336f6991c9cc045a50332ec31d18ea,
+  achievement_2: {fileID: 1935338549186538, guid: 4b4430300d7caac4dad80332f2541254,
     type: 2}
-  achievement_3: {fileID: 1517872090013018, guid: 07095da511f162b43b09813f5d84a065,
+  achievement_3: {fileID: 1147150211721432, guid: c9d0cf558532d44459503f5f9e927de0,
     type: 2}
-  achievement_4: {fileID: 1166077917042792, guid: 1e3dd03e60d627044a23d5ba6b4a0e14,
+  achievement_4: {fileID: 1679720541998714, guid: 8dc6e8ffcd8c00c4fad32bb541be84f3,
     type: 2}
-  achievement_5: {fileID: 1044704868504990, guid: ad9fc965263dcc443945d0c42199d18f,
+  achievement_5: {fileID: 1402985486426242, guid: 58444d8af835b8848affcb77b269a63e,
     type: 2}
   restartDelay: 5
 --- !u!1 &1822945633
