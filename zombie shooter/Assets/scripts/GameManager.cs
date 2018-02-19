@@ -116,7 +116,7 @@ public class GameManager : MonoBehaviour
 		extraDamageText.text = "X - " + money + "/15000$";
 		atomicBombText.text = "C - " + money + "/1234567$";
 		ScoreStreaks ();
-        Achievements();
+        //Achievements();
 		if (zombieCounter >= 1)
 		{
 			timerText.text = "";

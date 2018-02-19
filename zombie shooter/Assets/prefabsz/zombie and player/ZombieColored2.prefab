@@ -70,6 +70,7 @@ MonoBehaviour:
   scoreValue: 10
   money: {fileID: 183196, guid: be035ef9f2b70fe44a0f7419da552608, type: 2}
   moneySpawn: {fileID: 4067339049226924}
+  Player: {fileID: 0}
 --- !u!114 &11484640
 MonoBehaviour:
   m_ObjectHideFlags: 1

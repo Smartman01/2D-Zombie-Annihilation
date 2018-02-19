@@ -10,14 +10,26 @@ public class AchievementScript : MonoBehaviour {
     public GameObject achievement_4;
     public GameObject achievement_5;
 
+    static bool created = false;
+
     // Use this for initialization
     void Start () {
-        //DontDestroyOnLoad(this);
-	}
+        if (!created)
+        {
+            // this is the first instance - make it persist
+            DontDestroyOnLoad(this.gameObject);
+            created = true;
+        }
+        else
+        {
+            // this must be a duplicate from a scene reload - DESTROY!
+            Destroy(this.gameObject);
+        }
+    }
 	
 	// Update is called once per frame
 	void Update () {
-        /*if (GameManager.kills == 1)
+        if (GameManager.kills == 1)
         {
             achievement_1.transform.Find("Lock").gameObject.SetActive(false);
             achievement_1.transform.Find("Checkmark").gameObject.SetActive(true);
@@ -42,7 +54,7 @@ public class AchievementScript : MonoBehaviour {
         {
             achievement_5.transform.Find("Lock (4)").gameObject.SetActive(false);
             achievement_5.transform.Find("Checkmark (4)").gameObject.SetActive(true);
-        }*/
+        }
     }
 
     public void Reset_Stats()
