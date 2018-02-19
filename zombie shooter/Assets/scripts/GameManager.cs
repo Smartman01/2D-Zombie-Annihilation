@@ -89,14 +89,6 @@ public class GameManager : MonoBehaviour
 		moneyPack.maxMoneyValue = 1000;
     }
 	
-	void GetReference() 
-	{
-		bullet = GameObject.FindGameObjectWithTag("Player").GetComponent<Bullet>();
-		health = GameObject.FindGameObjectWithTag("Player").GetComponent<Health>();
-		
-		
-	}
-	
 	void Start ()
 	{
         zombieCounter = 0;

@@ -889,7 +889,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1813843030}
+      - m_Target: {fileID: 666519179}
         m_MethodName: SetActive
         m_Mode: 6
         m_Arguments:
@@ -1136,7 +1136,7 @@ GameObject:
   - component: {fileID: 130240415}
   - component: {fileID: 130240414}
   m_Layer: 5
-  m_Name: Text (1)
+  m_Name: Killtext
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1319,7 +1319,7 @@ GameObject:
   m_Component:
   - component: {fileID: 169033766}
   m_Layer: 0
-  m_Name: AtomBombSpawn
+  m_Name: AtomicBombSpawn
   m_TagString: Untagged
   m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -3945,6 +3945,91 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1712904891}
   m_RootOrder: 16
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &666519179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 666519181}
+  - component: {fileID: 666519180}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &666519180
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 666519179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d9f9e912a0e33641b75c3a9215764bd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bullet: {fileID: 11403342, guid: 0fbdb79c0dca25746bb956b61be53698, type: 2}
+  health: {fileID: 592440476}
+  scoreText: {fileID: 1529054468}
+  highScoreText: {fileID: 822075535}
+  hiScore: 0
+  killText: {fileID: 130240414}
+  moneyText: {fileID: 218474970}
+  moneyPack: {fileID: 11421004, guid: be035ef9f2b70fe44a0f7419da552608, type: 2}
+  Shield: {fileID: 605059953}
+  shieldText: {fileID: 831098569}
+  shieldTimer: {fileID: 1064487942}
+  sDTimer: 60
+  extraDamage: {fileID: 2091857314}
+  extraDamageText: {fileID: 545421412}
+  extraDamageTimer: {fileID: 1857909901}
+  eDTimer: 60
+  atomicBomb: {fileID: 344653639}
+  atomicBombText: {fileID: 1778196228}
+  atomicBombPrefab: {fileID: 144072, guid: ac3ca0d19c45a584faabdcbb1eadcc8f, type: 2}
+  atomBombSpawn: {fileID: 169033766}
+  spawnPoints:
+  - {fileID: 39374644}
+  - {fileID: 978525590}
+  - {fileID: 393277213}
+  - {fileID: 1606427561}
+  zombies:
+  - {fileID: 1613263081835654, guid: 0e053dd46d9bbb6439fe95106034b4fd, type: 2}
+  - {fileID: 1977906726163866, guid: b3070362bfe0b3c428fdabc4bce173e0, type: 2}
+  - {fileID: 172314, guid: 3563925b66be35b43b1991fe74cf1a64, type: 2}
+  spawnDelay: 2
+  defaultSpawnNum: 2
+  waveText: {fileID: 977984068}
+  timer: 10
+  timerText: {fileID: 2066319922}
+  achievement_1: {fileID: 1166085962680352, guid: fb17048385d1b6948b8d3b9f08c5792e,
+    type: 2}
+  achievement_2: {fileID: 1935338549186538, guid: 4b4430300d7caac4dad80332f2541254,
+    type: 2}
+  achievement_3: {fileID: 1147150211721432, guid: c9d0cf558532d44459503f5f9e927de0,
+    type: 2}
+  achievement_4: {fileID: 1679720541998714, guid: 8dc6e8ffcd8c00c4fad32bb541be84f3,
+    type: 2}
+  achievement_5: {fileID: 1402985486426242, guid: 58444d8af835b8848affcb77b269a63e,
+    type: 2}
+  restartDelay: 5
+--- !u!4 &666519181
+Transform:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 666519179}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &669578246
 GameObject:
@@ -20972,92 +21057,6 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1813843030
-GameObject:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 194126, guid: 36e1481d863d2424da5247a2e6cad643, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 5
-  m_Component:
-  - component: {fileID: 1813843031}
-  - component: {fileID: 1813843032}
-  m_Layer: 0
-  m_Name: Game Manager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!4 &1813843031
-Transform:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 432092, guid: 36e1481d863d2424da5247a2e6cad643, type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1813843030}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1813843032
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 11429932, guid: 36e1481d863d2424da5247a2e6cad643,
-    type: 2}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1813843030}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4d9f9e912a0e33641b75c3a9215764bd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  bullet: {fileID: 11403342, guid: 0fbdb79c0dca25746bb956b61be53698, type: 2}
-  health: {fileID: 592440476}
-  scoreText: {fileID: 1529054468}
-  highScoreText: {fileID: 822075535}
-  hiScore: 0
-  killText: {fileID: 130240414}
-  moneyText: {fileID: 218474970}
-  moneyPack: {fileID: 11421004, guid: be035ef9f2b70fe44a0f7419da552608, type: 2}
-  Shield: {fileID: 605059953}
-  shieldText: {fileID: 831098569}
-  shieldTimer: {fileID: 1064487942}
-  sDTimer: 60
-  extraDamage: {fileID: 2091857314}
-  extraDamageText: {fileID: 545421412}
-  extraDamageTimer: {fileID: 1857909901}
-  eDTimer: 60
-  atomicBomb: {fileID: 344653639}
-  atomicBombText: {fileID: 1778196228}
-  atomicBombPrefab: {fileID: 144072, guid: ac3ca0d19c45a584faabdcbb1eadcc8f, type: 2}
-  atomBombSpawn: {fileID: 169033766}
-  spawnPoints:
-  - {fileID: 39374644}
-  - {fileID: 978525590}
-  - {fileID: 393277213}
-  - {fileID: 1606427561}
-  zombies:
-  - {fileID: 1613263081835654, guid: 0e053dd46d9bbb6439fe95106034b4fd, type: 2}
-  - {fileID: 172314, guid: 3563925b66be35b43b1991fe74cf1a64, type: 2}
-  - {fileID: 1977906726163866, guid: b3070362bfe0b3c428fdabc4bce173e0, type: 2}
-  spawnDelay: 2
-  defaultSpawnNum: 2
-  waveText: {fileID: 977984068}
-  timer: 10
-  timerText: {fileID: 2066319922}
-  achievement_1: {fileID: 1166085962680352, guid: fb17048385d1b6948b8d3b9f08c5792e,
-    type: 2}
-  achievement_2: {fileID: 1935338549186538, guid: 4b4430300d7caac4dad80332f2541254,
-    type: 2}
-  achievement_3: {fileID: 1147150211721432, guid: c9d0cf558532d44459503f5f9e927de0,
-    type: 2}
-  achievement_4: {fileID: 1679720541998714, guid: 8dc6e8ffcd8c00c4fad32bb541be84f3,
-    type: 2}
-  achievement_5: {fileID: 1402985486426242, guid: 58444d8af835b8848affcb77b269a63e,
-    type: 2}
-  restartDelay: 5
 --- !u!1 &1822945633
 GameObject:
   m_ObjectHideFlags: 0
