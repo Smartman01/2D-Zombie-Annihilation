@@ -20,6 +20,8 @@ public class GameManager : MonoBehaviour
 	// Reference to the Text component.
 	public static int kills;
 	public Text killText;
+	//PlayerDeath
+	static int deaths;
 	
 	//Money
 	public static int money;
@@ -53,6 +55,7 @@ public class GameManager : MonoBehaviour
 	public static int zombieCounter;
 	public int defaultSpawnNum;
 	public static int waveNum;
+	public int total_WavNum;
 	public Text waveText;
 	public static bool isSpawning = false;
     //public ZombieHealth[] zombieHealth;
@@ -84,6 +87,8 @@ public class GameManager : MonoBehaviour
         highScoreText.text = "High Score - " + PlayerPrefs.GetInt("HighScore", 0);
 		money = 0;
 		kills = PlayerPrefs.GetInt("Kills", 0);
+		total_WaveNum = PlayerPrefs.GetInt("T_WN", 0);
+		deaths = PlayerPrefs.GetInt("Death", 0);
 		waveNum = 0;
 		//timer = 60.0f;
 		moneyPack.maxMoneyValue = 1000;
@@ -105,9 +110,15 @@ public class GameManager : MonoBehaviour
             hiScore = score;
             highScoreText.text = "High Score - " + hiScore;
         }
+	if(waveNum > PlayerPrefs.GetInt("T_WN", 0)) 
+	{
+		PlayerPrefs.SetInt("T_WN", waveNum);
+		total_WaveNum = waveNum;
+	}
 		moneyText.text = "- " + money;
         killText.text = "Kills - " + kills;
         PlayerPrefs.SetInt("Kills", kills);
+	PlayerPrefs.SetInt("Death", deaths);
 		timerText.text = Mathf.Round(timer) + "s";
 		extraDamageTimer.text = Mathf.Round(eDTimer) + "s";
 		shieldTimer.text = Mathf.Round(sDTimer) + "s";
