@@ -11,7 +11,9 @@ public class AchievementScript : MonoBehaviour {
     public GameObject achievement_5;
 
     static bool created = false;
-
+	
+	Public GameManager gm;
+	
     // Use this for initialization
     void Start () {
         if (!created)
