@@ -29,12 +29,12 @@ public class AchievementScript : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        if (GameManager.kills == 1)
-        {
+        //if (GameManager.kills == 1)
+        //{
             achievement_1.transform.Find("Lock").gameObject.SetActive(false);
             achievement_1.transform.Find("Checkmark").gameObject.SetActive(true);
             //Debug.Log("working");
-        }
+        //}
         if (GameManager.kills == 50)
         {
             achievement_2.transform.Find("Lock (1)").gameObject.SetActive(false);
