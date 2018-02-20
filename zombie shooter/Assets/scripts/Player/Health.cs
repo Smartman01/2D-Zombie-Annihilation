@@ -60,6 +60,7 @@ public class Health : MonoBehaviour {
             //if health has fallen below zero, deactivate it 
             cam.SetActive(true);
 			GameManager.isSpawning = false;
+		GameManager.deaths++;
             deathMenu.SetActive(true);
             //Time.timeScale = 0;
             Destroy(this.gameObject);
