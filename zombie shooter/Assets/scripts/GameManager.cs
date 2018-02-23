@@ -67,11 +67,11 @@ public class GameManager : MonoBehaviour
 	public Text timerText;
 
     //Achievements
-    public GameObject achievement_1;
+    /*public GameObject achievement_1;
     public GameObject achievement_2;
     public GameObject achievement_3;
     public GameObject achievement_4;
-    public GameObject achievement_5;
+    public GameObject achievement_5;*/
 
 
     public float restartDelay = 5f;
@@ -307,7 +307,7 @@ public class GameManager : MonoBehaviour
         //eDTimer = 60f;
 	}
 
-    void Achievements()
+    /*void Achievements()
     {
         //PlayerPrefs.Save();
         if(kills == 1)
@@ -336,5 +336,5 @@ public class GameManager : MonoBehaviour
             achievement_5.transform.Find("Lock (4)").gameObject.SetActive(false);
             achievement_5.transform.Find("Checkmark (4)").gameObject.SetActive(true);
         }
-    }
+    }*/
 }

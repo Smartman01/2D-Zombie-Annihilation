@@ -17673,6 +17673,31 @@ Prefab:
       propertyPath: spawnPoints.Array.data[3]
       value: 
       objectReference: {fileID: 1258776536}
+    - target: {fileID: 114462489437930838, guid: 68dbdc32b13cc8e43a53dbea3a331426,
+        type: 2}
+      propertyPath: achievement_1
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114462489437930838, guid: 68dbdc32b13cc8e43a53dbea3a331426,
+        type: 2}
+      propertyPath: achievement_2
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114462489437930838, guid: 68dbdc32b13cc8e43a53dbea3a331426,
+        type: 2}
+      propertyPath: achievement_3
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114462489437930838, guid: 68dbdc32b13cc8e43a53dbea3a331426,
+        type: 2}
+      propertyPath: achievement_4
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 114462489437930838, guid: 68dbdc32b13cc8e43a53dbea3a331426,
+        type: 2}
+      propertyPath: achievement_5
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 68dbdc32b13cc8e43a53dbea3a331426, type: 2}
   m_IsPrefabParent: 0

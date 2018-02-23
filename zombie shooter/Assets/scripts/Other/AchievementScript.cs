@@ -11,12 +11,18 @@ public class AchievementScript : MonoBehaviour {
     public GameObject achievement_5;
 
     static bool created = false;
-	
-	//public GameManager gm;
-	
+
+    bool ach_1 = false;
+    bool ach_2 = false;
+    bool ach_3 = false;
+    bool ach_4 = false;
+    bool ach_5 = false;
+
+    //public GameManager gm;
+
     // Use this for initialization
     void Start () {
-        if (!created)
+        /*if (!created)
         {
             // this is the first instance - make it persist
             DontDestroyOnLoad(this.gameObject);
@@ -26,33 +32,33 @@ public class AchievementScript : MonoBehaviour {
         {
             // this must be a duplicate from a scene reload - DESTROY!
             Destroy(this.gameObject);
-        }
+        }*/
     }
 	
 	// Update is called once per frame
 	void Update () {
-        if (GameManager.kills == 1)
+        if (GameManager.kills >= 1)
         {
             achievement_1.transform.Find("Lock").gameObject.SetActive(false);
             achievement_1.transform.Find("Checkmark").gameObject.SetActive(true);
             //Debug.Log("working");
         }
-        if (GameManager.kills == 50)
+        if (GameManager.kills >= 50)
         {
             achievement_2.transform.Find("Lock (1)").gameObject.SetActive(false);
             achievement_2.transform.Find("Checkmark (1)").gameObject.SetActive(true);
         }
-        if (GameManager.kills == 1000)
+        if (GameManager.kills >= 1000)
         {
             achievement_3.transform.Find("Lock (2)").gameObject.SetActive(false);
             achievement_3.transform.Find("Checkmark (2)").gameObject.SetActive(true);
         }
-        if (GameManager.waveNum == 10)
+        if (GameManager.waveNum >= 10)
         {
             achievement_4.transform.Find("Lock (3)").gameObject.SetActive(false);
             achievement_4.transform.Find("Checkmark (3)").gameObject.SetActive(true);
         }
-        if (GameManager.waveNum == 50)
+        if (GameManager.waveNum >= 50)
         {
             achievement_5.transform.Find("Lock (4)").gameObject.SetActive(false);
             achievement_5.transform.Find("Checkmark (4)").gameObject.SetActive(true);
@@ -64,6 +70,8 @@ public class AchievementScript : MonoBehaviour {
         PlayerPrefs.DeleteAll();
         //GameManager.killText.text = "0";
         GameManager.kills = 0;
+        GameManager.deaths = 0;
+        GameManager.total_WavNum = 0;
         //GameManager.highScoreText.text = "0";
 
         achievement_1.transform.Find("Lock").gameObject.SetActive(true);
