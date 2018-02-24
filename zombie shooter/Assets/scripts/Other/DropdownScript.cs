@@ -11,6 +11,8 @@ public class DropdownScript : MonoBehaviour {
 
     public GameObject statsMenu;
 
+    public GameObject controlsMenu;
+
     Dropdown m_DropDown;
 
 	// Use this for initialization
@@ -22,6 +24,7 @@ public class DropdownScript : MonoBehaviour {
 	void Update () {
 		if(m_DropDown.value == 1)
         {
+            controlsMenu.SetActive(false);
             startMenu.SetActive(false);
             statsMenu.SetActive(false);
             acheMenu.SetActive(true);
@@ -31,9 +34,17 @@ public class DropdownScript : MonoBehaviour {
             statsMenu.SetActive(true);
             startMenu.SetActive(false);
             acheMenu.SetActive(false);
+            controlsMenu.SetActive(false);
         }
-        else
+        else if(m_DropDown.value == 3)
         {
+            controlsMenu.SetActive(true);
+            statsMenu.SetActive(false);
+            startMenu.SetActive(false);
+            acheMenu.SetActive(false);
+        }else
+        {
+            controlsMenu.SetActive(false);
             statsMenu.SetActive(false);
             startMenu.SetActive(true);
             acheMenu.SetActive(false);

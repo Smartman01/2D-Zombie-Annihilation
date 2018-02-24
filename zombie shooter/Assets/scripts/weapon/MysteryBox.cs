@@ -128,13 +128,13 @@ public class MysteryBox : MonoBehaviour {
             else
                 showMysteryBoxGUI = false;*/
 
-            if (Input.GetKeyUp("e") && GameManager.money >= mysteryBoxPrice && !boxIsOpen && !openBox && timer == 0)
+            if (Input.GetKeyUp("e") || Input.GetButtonUp("BButton") && GameManager.money >= mysteryBoxPrice && !boxIsOpen && !openBox && timer == 0)
             {
                 GameManager.money -= mysteryBoxPrice;
                 openBox = true;
             }
 
-            if (canTakeWeapon && Input.GetKeyUp("t"))
+            if (canTakeWeapon && Input.GetKeyUp("t") || Input.GetButtonUp("BButton"))
             {
                 weapon.GetComponent<SpriteRenderer>().sprite = guns[selectedGun].GetComponent<SpriteRenderer>().sprite;
                 

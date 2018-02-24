@@ -70,7 +70,7 @@ public class PlayerController : MonoBehaviour {
             jump = false;
         }
 
-        if (Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetKey(KeyCode.LeftShift) || Input.GetButton("LSBtn"))
         {
             Speed = maxSpeed;
         }

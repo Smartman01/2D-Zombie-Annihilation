@@ -21,7 +21,7 @@ public class HealthPack : MonoBehaviour {
         var hit = coll.gameObject;
         var hitplayer = hit.GetComponent<PlayerController>();
         var health = hit.GetComponent<Health>();
-        if (hitplayer != null && hit.transform.tag == "Player" && Input.GetKeyUp("e") && GameManager.money >= healthPrice && health.currentHealth < 100)
+        if (hitplayer != null && hit.transform.tag == "Player" && (Input.GetKeyUp("e") || Input.GetButtonUp("BButton")) && GameManager.money >= healthPrice && health.currentHealth < 100)
         {
             GameManager.money -= healthPrice;
             health.currentHealth = 100;

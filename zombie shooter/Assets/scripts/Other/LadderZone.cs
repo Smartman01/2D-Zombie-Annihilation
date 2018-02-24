@@ -17,11 +17,11 @@ public class LadderZone : MonoBehaviour {
 
     void OnTriggerStay2D (Collider2D other)
     {
-        if(other.tag == "Player" && Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow))
+        if(other.tag == "Player" && Input.GetKey(KeyCode.W) || Input.GetKey(KeyCode.UpArrow) || (Input.GetAxis("LJSV") < 0))
         {
             other.GetComponent<Rigidbody2D>().velocity = new Vector2(0, speed);
         }
-        else if (other.tag == "Player" && Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow))
+        else if (other.tag == "Player" && Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.DownArrow) || (Input.GetAxis("LJSV") > 0))
         {
             other.GetComponent<Rigidbody2D>().velocity = new Vector2(0, -speed);
         }
