@@ -12,11 +12,11 @@ public class AchievementScript : MonoBehaviour {
 
     static bool created = false;
 
-    bool ach_1 = false;
+    /*bool ach_1 = false;
     bool ach_2 = false;
     bool ach_3 = false;
     bool ach_4 = false;
-    bool ach_5 = false;
+    bool ach_5 = false;*/
 
     //public GameManager gm;
 
@@ -33,6 +33,9 @@ public class AchievementScript : MonoBehaviour {
             // this must be a duplicate from a scene reload - DESTROY!
             Destroy(this.gameObject);
         }*/
+
+        GameManager.kills = PlayerPrefs.GetInt("Kills", 0);
+        GameManager.total_WavNum = PlayerPrefs.GetInt("T_WN", 0);
     }
 	
 	// Update is called once per frame
@@ -53,12 +56,12 @@ public class AchievementScript : MonoBehaviour {
             achievement_3.transform.Find("Lock (2)").gameObject.SetActive(false);
             achievement_3.transform.Find("Checkmark (2)").gameObject.SetActive(true);
         }
-        if (GameManager.waveNum >= 10)
+        if (GameManager.total_WavNum >= 10)
         {
             achievement_4.transform.Find("Lock (3)").gameObject.SetActive(false);
             achievement_4.transform.Find("Checkmark (3)").gameObject.SetActive(true);
         }
-        if (GameManager.waveNum >= 50)
+        if (GameManager.total_WavNum >= 50)
         {
             achievement_5.transform.Find("Lock (4)").gameObject.SetActive(false);
             achievement_5.transform.Find("Checkmark (4)").gameObject.SetActive(true);
@@ -72,6 +75,7 @@ public class AchievementScript : MonoBehaviour {
         GameManager.kills = 0;
         GameManager.deaths = 0;
         GameManager.total_WavNum = 0;
+        GameManager.hiScore = 0;
         //GameManager.highScoreText.text = "0";
 
         achievement_1.transform.Find("Lock").gameObject.SetActive(true);

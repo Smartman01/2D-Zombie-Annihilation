@@ -51,7 +51,7 @@ public class Shooting : MonoBehaviour
         mossberg_590();
         winchester_1300();
 
-        if (Input.GetButton("Fire1") && Time.time > nextFire && clip > 0)
+        if ((Input.GetButton("Fire1") || Input.GetButton("rightBumper")) && Time.time > nextFire && clip > 0)
         {
             nextFire = Time.time + fireRate;
             clip -= 1;
@@ -60,17 +60,20 @@ public class Shooting : MonoBehaviour
             shoot();
         }
 
-        if (Input.GetKeyDown(KeyCode.R) && clip != 30 && reserve != 0)
+        if (Input.GetKeyUp(KeyCode.R) || Input.GetButtonUp("XButton") && clip != 30 && reserve != 0)
         {
             var totalAmmo = clip + reserve;
-            if (totalAmmo <= clip)
+            if (totalAmmo <= 30)
             {
                 clip = totalAmmo;
                 reserve = 0;
+            } else
+            {
+                var shotsFired = 30 - clip;
+                clip = 30;
+                reserve -= shotsFired;
             }
-            var shotsFired = 30 - clip;
-            clip = 30;
-            reserve -= shotsFired;
+
             gunAudioSource.clip = reloadClip;
             gunAudioSource.Play();
             /*else

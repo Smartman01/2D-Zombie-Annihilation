@@ -32,13 +32,13 @@ public class Health : MonoBehaviour {
     {
         health.text = "Health: " + currentHealth;
 
-        if(Input.GetKey(KeyCode.Tab) && pause == false)
+        if(Input.GetKey(KeyCode.Tab) || Input.GetButton("PauseBtn") && pause == false)
         {
             Time.timeScale = 0;
             pause = true;
             pauseMenu.SetActive(true);
         }
-        else if (pause == true && Input.GetKey(KeyCode.Escape))
+        else if (pause == true && Input.GetKey(KeyCode.Escape) || Input.GetButton("backBtn"))
         {
             pause = false;
             pauseMenu.SetActive(false);

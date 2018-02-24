@@ -25,7 +25,7 @@ public class GrenadeThrower : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
         grenadeAmmo.text = grenadeClip.ToString();
-        if (Input.GetKeyDown("f") && grenadeClip > 0)
+        if (Input.GetKeyUp("f") || Input.GetButtonUp("leftBumper") && grenadeClip > 0)
         {
             grenadeClip -= 1;
             ThrowGrenade();

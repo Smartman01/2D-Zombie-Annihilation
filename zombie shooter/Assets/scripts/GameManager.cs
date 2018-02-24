@@ -15,7 +15,7 @@ public class GameManager : MonoBehaviour
 	// The player's score.
 	public Text scoreText;
     public  Text highScoreText;
-    public int hiScore;
+    public static int hiScore;
     //string highScoreKey = "HighScore";
 	// Reference to the Text component.
 	public static int kills;
