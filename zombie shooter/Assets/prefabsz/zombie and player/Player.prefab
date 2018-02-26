@@ -55,8 +55,8 @@ GameObject:
   - component: {fileID: 81177806634868400}
   - component: {fileID: 114215752616123796}
   m_Layer: 9
-  m_Name: Main Camera
-  m_TagString: MainCamera
+  m_Name: Main Cam
+  m_TagString: Main Cam
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -698,6 +698,7 @@ MonoBehaviour:
   grenadeClip: 3
   grenadeAmmo: {fileID: 0}
   bommSpawn: {fileID: 4892778005986488}
+  camShake: {fileID: 0}
 --- !u!124 &124452149518666526
 Behaviour:
   m_ObjectHideFlags: 1

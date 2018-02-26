@@ -8,6 +8,7 @@ TagManager:
   - Enemy
   - Spawn
   - atomGround
+  - Main Cam
   layers:
   - Default
   - TransparentFX

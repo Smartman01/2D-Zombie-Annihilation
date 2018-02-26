@@ -125,7 +125,7 @@ public class GameManager : MonoBehaviour
         waveText.text = "Wave - " + waveNum;
 		shieldText.text = "Z - " + money + "/10450$";
 		extraDamageText.text = "X - " + money + "/15000$";
-		atomicBombText.text = "C - " + money + "/1234567$";
+		atomicBombText.text = "C - " + money + "/123456$";
 		ScoreStreaks ();
         //Achievements();
 		if (zombieCounter >= 1)
@@ -163,7 +163,7 @@ public class GameManager : MonoBehaviour
 		}
 
         //timer for scorestreaks
-        if(shieldBool)
+        if(shieldBool == true)
         {
             sDTimer -= Time.deltaTime;
         }
@@ -172,7 +172,7 @@ public class GameManager : MonoBehaviour
             sDTimer = 60;
         }
 
-        if (eDBool)
+        if (eDBool == true)
         {
             eDTimer -= Time.deltaTime;
         }
@@ -205,7 +205,7 @@ public class GameManager : MonoBehaviour
         }
         if (money >= 1234567) 
 		{
-			atomicBombText.text = "C - 1234567/1234567$";
+			atomicBombText.text = "C - 123456/123456$";
 			atomicBomb.color = new Color32 (255, 0, 0, 255);
 		}
         else
@@ -215,23 +215,23 @@ public class GameManager : MonoBehaviour
 
         //Activating && subtracting money
         //Shield
-        if (Input.GetKeyDown (KeyCode.Z) && money >= 10450) 
+        if (Input.GetKeyDown (KeyCode.Z) || (Input.GetAxis("DpadH") < 0) && money >= 10450) 
 		{
 			money = (int)(money - 10450);
 			StartCoroutine("ShieldSS", 60);
             //sDTimer -= Time.deltaTime;
         }
         //ExtraDamage
-        if (Input.GetKeyDown (KeyCode.X) && money >= 258500) 
+        if (Input.GetKeyDown (KeyCode.X) || (Input.GetAxis("DpadV") > 0) && money >= 15000) 
 		{
-			money = (int)(money - 258500);
+			money = (int)(money - 15000);
             StartCoroutine("ExtraDam", 60);
             //eDTimer -= Time.deltaTime;
         }
         //AtomicBomb
-        if (Input.GetKeyDown(KeyCode.C) && money >= 1234567) 
+        if (Input.GetKeyDown(KeyCode.C) || (Input.GetAxis("DpadH") > 0) && money >= 123456) 
 		{
-			money = (int)(money - 1234567);
+			money = (int)(money - 123456);
             Instantiate(atomicBombPrefab, atomBombSpawn.position, transform.rotation);
 		}
 	}

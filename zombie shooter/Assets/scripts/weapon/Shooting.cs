@@ -51,7 +51,7 @@ public class Shooting : MonoBehaviour
         mossberg_590();
         winchester_1300();
 
-        if ((Input.GetButton("Fire1") || Input.GetButton("rightBumper")) && Time.time > nextFire && clip > 0)
+        if ((Input.GetButton("Fire1") || Input.GetAxis("RT") > 0) && Time.time > nextFire && clip > 0)
         {
             nextFire = Time.time + fireRate;
             clip -= 1;

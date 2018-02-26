@@ -18,9 +18,15 @@ public class AtomBomb : MonoBehaviour {
 
     GameObject[] zombies1;
 
+    public GameObject camShake;
+
     // Use this for initialization
     void Start()
     {
+        if (camShake == null)
+        {
+            camShake = GameObject.FindGameObjectWithTag("Main Cam");
+        }
         countdown = delay;
     }
 
@@ -31,6 +37,7 @@ public class AtomBomb : MonoBehaviour {
         if (countdown <= 0f && !hasExploded)
         {
             Explode();
+            StartCoroutine(camShake.GetComponent<CameraShake_0>().Shake(2f, .4f));
             hasExploded = true;
         }
     }
@@ -38,7 +45,7 @@ public class AtomBomb : MonoBehaviour {
     void Explode()
     {
         //Effect
-        Instantiate(explosionEffect, transform.position, transform.rotation);
+        Instantiate(explosionEffect, transform.position, explosionEffect.transform.rotation);
 
         //Force & Damage
         /*Collider[] colliders = Physics.OverlapSphere(transform.position, blastRaduis);
@@ -113,6 +120,7 @@ public class AtomBomb : MonoBehaviour {
                 }
             
                 Instantiate(explosionEffect, transform.position, transform.rotation);
+                StartCoroutine(camShake.GetComponent<CameraShake_0>().Shake(2f, .4f));
                 Destroy(gameObject);
             }
         }

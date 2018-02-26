@@ -16,9 +16,15 @@ public class Grenade : MonoBehaviour {
 
     public int damage;
 
+    public GameObject camShake;
 
-	// Use this for initialization
-	void Start () {
+
+    // Use this for initialization
+    void Start () {
+        if (camShake == null)
+        {
+            camShake = GameObject.FindGameObjectWithTag("Main Cam");
+        }
         countdown = delay;
 	}
 	
@@ -28,6 +34,7 @@ public class Grenade : MonoBehaviour {
         if(countdown <= 0f && !hasExploded)
         {
             Explode();
+            StartCoroutine(camShake.GetComponent<CameraShake_0>().Shake(2f, .4f));
             hasExploded = true;
         }
 	}
@@ -78,6 +85,7 @@ public class Grenade : MonoBehaviour {
             Debug.Log("hit by grenade");
             Zomhealth.ZomDamage(damage);
             Instantiate(explosionEffect, transform.position, transform.rotation);
+            StartCoroutine(camShake.GetComponent<CameraShake_0>().Shake(2f, .4f));
             Destroy(gameObject);
         }
 

@@ -1351,7 +1351,7 @@ MonoBehaviour:
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "Left Stick: To Move\nLeft Stick click: \nto move faster\nA Button: To Jump\nRight
-    bumper: Shoot\nX: Reload\nLeft Bumper: Throw bombs\nB Button: To buy\nB Button:
+    Trigger: Shoot\nX: Reload\nLeft Bumper: Throw bombs\nB Button: To buy\nB Button:
     To take weapon\nfrom mystery box\nStart Button: \nTo pause\nBack Button: To exit
     pause menu\n"
 --- !u!222 &508208004
