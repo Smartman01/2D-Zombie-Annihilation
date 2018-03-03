@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class MysteryBox : MonoBehaviour {
 
-    Animation movement;
+    public Animation movement;
+    public Animator box;
 
     public bool openBox = false, canTakeWeapon, triggerWeapon, boxIsOpen;
 
@@ -26,6 +27,7 @@ public class MysteryBox : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
         movement = GetComponentInChildren<Animation>();
+        box = GetComponent<Animator>();
 	}
 	
 	// Update is called once per frame
@@ -101,6 +103,7 @@ public class MysteryBox : MonoBehaviour {
     void RunGunMovement()
     {
         movement.Play();
+        box.Play("Chest", 15, 8f);
     }
 
     /*void OnGUI()
