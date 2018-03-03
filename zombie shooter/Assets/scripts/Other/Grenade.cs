@@ -42,7 +42,7 @@ public class Grenade : MonoBehaviour {
     void Explode()
     {
         //Effect
-        Instantiate(explosionEffect, transform.position, transform.rotation);
+        Instantiate(explosionEffect, transform.position, Quaternion.Euler(new Vector3(0, 0, 0)));
 
         //Force & Damage
         /*Collider[] colliders = Physics.OverlapSphere(transform.position, blastRaduis);
@@ -84,7 +84,7 @@ public class Grenade : MonoBehaviour {
             }
             Debug.Log("hit by grenade");
             Zomhealth.ZomDamage(damage);
-            Instantiate(explosionEffect, transform.position, transform.rotation);
+            Instantiate(explosionEffect, transform.position, Quaternion.Euler(new Vector3(0, 0, 0)));
             StartCoroutine(camShake.GetComponent<CameraShake_0>().Shake(2f, .4f));
             Destroy(gameObject);
         }

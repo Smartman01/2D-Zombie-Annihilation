@@ -3327,6 +3327,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   bulletPrefab: {fileID: 5094356, guid: 0fbdb79c0dca25746bb956b61be53698, type: 2}
+  muzzleFlashPrefab: {fileID: 1877796017478122, guid: 365adadcc12a6f0409573069e26ef18f,
+    type: 2}
   bulletSpawn: {fileID: 1297449125}
   speed: 25
   fireRate: 0.5
@@ -4295,7 +4297,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}

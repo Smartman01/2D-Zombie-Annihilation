@@ -5,6 +5,8 @@ public class Shooting : MonoBehaviour
 {
     public Rigidbody2D bulletPrefab;
 
+    public GameObject muzzleFlashPrefab;
+
     public Transform bulletSpawn;
 
     public float speed;
@@ -165,11 +167,13 @@ public class Shooting : MonoBehaviour
         if (control.facingRight)
         {
             Rigidbody2D bulletInstance = Instantiate(bulletPrefab, bulletSpawn.position, Quaternion.Euler(new Vector3(0, 0, 0))) as Rigidbody2D;
+            Instantiate(muzzleFlashPrefab, bulletSpawn.position, Quaternion.Euler(new Vector3(0, 0, 0)));
             bulletInstance.velocity = new Vector2(speed, 0);
         }
         else
         {
             Rigidbody2D bulletInstance = Instantiate(bulletPrefab, bulletSpawn.position, Quaternion.Euler(new Vector3(0, 0, 180))) as Rigidbody2D;
+            Instantiate(muzzleFlashPrefab, bulletSpawn.position, Quaternion.Euler(new Vector3(0, 0, 180)));
             bulletInstance.velocity = new Vector2(-speed, 0);
         }
     }

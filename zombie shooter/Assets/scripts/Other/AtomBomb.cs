@@ -45,7 +45,7 @@ public class AtomBomb : MonoBehaviour {
     void Explode()
     {
         //Effect
-        Instantiate(explosionEffect, transform.position, explosionEffect.transform.rotation);
+        Instantiate(explosionEffect, transform.position, Quaternion.Euler(new Vector3(0, 0, 0)));
 
         //Force & Damage
         /*Collider[] colliders = Physics.OverlapSphere(transform.position, blastRaduis);
@@ -119,7 +119,7 @@ public class AtomBomb : MonoBehaviour {
                     Debug.Log("hit by atom");
                 }
             
-                Instantiate(explosionEffect, transform.position, transform.rotation);
+                Instantiate(explosionEffect, transform.position, Quaternion.Euler(new Vector3(0, 0, 0)));
                 StartCoroutine(camShake.GetComponent<CameraShake_0>().Shake(2f, .4f));
                 Destroy(gameObject);
             }
