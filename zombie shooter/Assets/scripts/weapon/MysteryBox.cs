@@ -65,6 +65,7 @@ public class MysteryBox : MonoBehaviour {
             counter = 0;
             counterCompare = 0;
             timer = 0;
+            box.SetBool("open", false);
             DisableGuns();
         }
     }
@@ -103,7 +104,7 @@ public class MysteryBox : MonoBehaviour {
     void RunGunMovement()
     {
         movement.Play();
-        box.Play("Chest", 15, 8f);
+        box.SetBool("open", true);
     }
 
     /*void OnGUI()

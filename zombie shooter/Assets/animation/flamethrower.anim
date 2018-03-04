@@ -5,7 +5,7 @@ AnimationClip:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: Chest
+  m_Name: flamethrower
   serializedVersion: 6
   m_Legacy: 0
   m_Compressed: 0
@@ -19,12 +19,20 @@ AnimationClip:
   m_PPtrCurves:
   - curve:
     - time: 0
-      value: {fileID: 21300000, guid: e289bae621b2f7446958b9e449e251b8, type: 3}
+      value: {fileID: 21300000, guid: ba30c73ce26a64e4fa78e9f486e8059a, type: 3}
+    - time: 0.083333336
+      value: {fileID: 21300000, guid: b64173ccf59f97f448c1be70c7029736, type: 3}
+    - time: 0.16666667
+      value: {fileID: 21300000, guid: 59f7f6cbe6bfb7249bf6bb4e6963f268, type: 3}
+    - time: 0.25
+      value: {fileID: 21300000, guid: 2c523ea145c794241a9f40715380983e, type: 3}
+    - time: 0.33333334
+      value: {fileID: 21300000, guid: 48a2ec14d70e76045ba40d702769363c, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
     script: {fileID: 0}
-  m_SampleRate: 60
+  m_SampleRate: 12
   m_WrapMode: 0
   m_Bounds:
     m_Center: {x: 0, y: 0, z: 0}
@@ -39,13 +47,17 @@ AnimationClip:
       customType: 23
       isPPtrCurve: 1
     pptrCurveMapping:
-    - {fileID: 21300000, guid: e289bae621b2f7446958b9e449e251b8, type: 3}
+    - {fileID: 21300000, guid: ba30c73ce26a64e4fa78e9f486e8059a, type: 3}
+    - {fileID: 21300000, guid: b64173ccf59f97f448c1be70c7029736, type: 3}
+    - {fileID: 21300000, guid: 59f7f6cbe6bfb7249bf6bb4e6963f268, type: 3}
+    - {fileID: 21300000, guid: 2c523ea145c794241a9f40715380983e, type: 3}
+    - {fileID: 21300000, guid: 48a2ec14d70e76045ba40d702769363c, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.016666668
+    m_StopTime: 0.4166667
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
