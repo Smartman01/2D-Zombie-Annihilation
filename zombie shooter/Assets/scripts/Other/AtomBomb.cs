@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using EZCameraShake;
 
 public class AtomBomb : MonoBehaviour {
 
@@ -18,15 +19,9 @@ public class AtomBomb : MonoBehaviour {
 
     GameObject[] zombies1;
 
-    public GameObject camShake;
-
     // Use this for initialization
     void Start()
     {
-        if (camShake == null)
-        {
-            camShake = GameObject.FindGameObjectWithTag("Main Cam");
-        }
         countdown = delay;
     }
 
@@ -37,7 +32,7 @@ public class AtomBomb : MonoBehaviour {
         if (countdown <= 0f && !hasExploded)
         {
             Explode();
-            StartCoroutine(camShake.GetComponent<CameraShake_0>().Shake(2f, .4f));
+            CameraShaker.Instance.ShakeOnce(20f, 20f, .1f, 2.5f);
             hasExploded = true;
         }
     }
@@ -120,7 +115,7 @@ public class AtomBomb : MonoBehaviour {
                 }
             
                 Instantiate(explosionEffect, transform.position, Quaternion.Euler(new Vector3(0, 0, 0)));
-                StartCoroutine(camShake.GetComponent<CameraShake_0>().Shake(2f, .4f));
+                CameraShaker.Instance.ShakeOnce(20f, 20f, .1f, 2.5f);
                 Destroy(gameObject);
             }
         }

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using EZCameraShake;
 
 public class Grenade : MonoBehaviour {
 
@@ -16,15 +17,9 @@ public class Grenade : MonoBehaviour {
 
     public int damage;
 
-    public GameObject camShake;
-
 
     // Use this for initialization
     void Start () {
-        if (camShake == null)
-        {
-            camShake = GameObject.FindGameObjectWithTag("Main Cam");
-        }
         countdown = delay;
 	}
 	
@@ -34,7 +29,7 @@ public class Grenade : MonoBehaviour {
         if(countdown <= 0f && !hasExploded)
         {
             Explode();
-            StartCoroutine(camShake.GetComponent<CameraShake_0>().Shake(2f, .4f));
+            CameraShaker.Instance.ShakeOnce(4f, 4f, .1f, 1f);
             hasExploded = true;
         }
 	}
@@ -85,7 +80,7 @@ public class Grenade : MonoBehaviour {
             Debug.Log("hit by grenade");
             Zomhealth.ZomDamage(damage);
             Instantiate(explosionEffect, transform.position, Quaternion.Euler(new Vector3(0, 0, 0)));
-            StartCoroutine(camShake.GetComponent<CameraShake_0>().Shake(2f, .4f));
+            CameraShaker.Instance.ShakeOnce(4f, 4f, .1f, 1f);
             Destroy(gameObject);
         }
 

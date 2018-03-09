@@ -35,6 +35,7 @@ public class GameManager : MonoBehaviour
 	public Text shieldTimer;
     public float sDTimer = 60.00f;
     bool shieldBool = false;
+    public GameObject shieldEffect;
 	public Image extraDamage;
 	public Text extraDamageText;
 	public Text extraDamageTimer;
@@ -65,14 +66,6 @@ public class GameManager : MonoBehaviour
     //Timer
     public float timer = 60.00f;
 	public Text timerText;
-
-    //Achievements
-    /*public GameObject achievement_1;
-    public GameObject achievement_2;
-    public GameObject achievement_3;
-    public GameObject achievement_4;
-    public GameObject achievement_5;*/
-
 
     public float restartDelay = 5f;
     float restartTimer;
@@ -127,7 +120,6 @@ public class GameManager : MonoBehaviour
 		extraDamageText.text = "X - " + money + "/15000$";
 		atomicBombText.text = "C - " + money + "/123456$";
 		ScoreStreaks ();
-        //Achievements();
 		if (zombieCounter >= 1)
 		{
 			timerText.text = "";
@@ -215,21 +207,20 @@ public class GameManager : MonoBehaviour
 
         //Activating && subtracting money
         //Shield
-        if (Input.GetKeyDown (KeyCode.Z) || (Input.GetAxis("DpadH") < 0) && money >= 10450) 
+        if ((Input.GetKeyUp (KeyCode.Z) || Input.GetAxis("DpadH") < 0) && money >= 0) 
 		{
 			money = (int)(money - 10450);
 			StartCoroutine("ShieldSS", 60);
-            //sDTimer -= Time.deltaTime;
+            //StartCoroutine("ShieldPulseEffect", 60);
         }
         //ExtraDamage
-        if (Input.GetKeyDown (KeyCode.X) || (Input.GetAxis("DpadV") > 0) && money >= 15000) 
+        if ((Input.GetKeyUp (KeyCode.X) || Input.GetAxis("DpadV") > 0) && money >= 15000) 
 		{
 			money = (int)(money - 15000);
             StartCoroutine("ExtraDam", 60);
-            //eDTimer -= Time.deltaTime;
         }
         //AtomicBomb
-        if (Input.GetKeyDown(KeyCode.C) || (Input.GetAxis("DpadH") > 0) && money >= 123456) 
+        if ((Input.GetKeyUp(KeyCode.C) || Input.GetAxis("DpadH") > 0) && money >= 123456) 
 		{
 			money = (int)(money - 123456);
             Instantiate(atomicBombPrefab, atomBombSpawn.position, transform.rotation);
@@ -270,7 +261,9 @@ public class GameManager : MonoBehaviour
 	{
         shieldBool = true;
 
-	    if(zombie_1 == null)
+        shieldEffect.SetActive(true);
+
+        if (zombie_1 == null)
         {
             zombie_1 = GameObject.FindGameObjectsWithTag("Enemy");
         }
@@ -289,9 +282,21 @@ public class GameManager : MonoBehaviour
             Debug.Log("zomDamage is 10");
         }
         shieldBool = false;
+
+        shieldEffect.SetActive(false);
+
         StopCoroutine ("ShieldSS");
         //sDTimer = 60f;
 	}
+
+    /*IEnumerator ShieldPulseEffect(float waitTime)
+    {
+        while(true)
+        {
+            yield return new WaitForSeconds(waitTime);
+            shieldEffect.GetComponent<SpriteRenderer>().color = new Color(255, 255, 255, Random.Range(75, 255));
+        }
+    }*/
 
     IEnumerator ExtraDam(float waitTime) 
 	{
@@ -306,35 +311,4 @@ public class GameManager : MonoBehaviour
 		StopCoroutine ("ExtraDam");
         //eDTimer = 60f;
 	}
-
-    /*void Achievements()
-    {
-        //PlayerPrefs.Save();
-        if(kills == 1)
-        {
-            achievement_1.transform.Find("Lock").gameObject.SetActive(false);
-            achievement_1.transform.Find("Checkmark").gameObject.SetActive(true);
-            //Debug.Log("working");
-        }
-        if (kills == 50)
-        {
-            achievement_2.transform.Find("Lock (1)").gameObject.SetActive(false);
-            achievement_2.transform.Find("Checkmark (1)").gameObject.SetActive(true);
-        }
-        if (kills == 1000)
-        {
-            achievement_3.transform.Find("Lock (2)").gameObject.SetActive(false);
-            achievement_3.transform.Find("Checkmark (2)").gameObject.SetActive(true);
-        }
-        if (waveNum == 10)
-        {
-            achievement_4.transform.Find("Lock (3)").gameObject.SetActive(false);
-            achievement_4.transform.Find("Checkmark (3)").gameObject.SetActive(true);
-        }
-        if (waveNum == 50)
-        {
-            achievement_5.transform.Find("Lock (4)").gameObject.SetActive(false);
-            achievement_5.transform.Find("Checkmark (4)").gameObject.SetActive(true);
-        }
-    }*/
 }
