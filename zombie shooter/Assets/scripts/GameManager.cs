@@ -207,7 +207,7 @@ public class GameManager : MonoBehaviour
 
         //Activating && subtracting money
         //Shield
-        if ((Input.GetKeyUp (KeyCode.Z) || Input.GetAxis("DpadH") < 0) && money >= 0) 
+        if ((Input.GetKeyUp (KeyCode.Z) || Input.GetAxis("DpadH") < 0) && money >= 10450) 
 		{
 			money = (int)(money - 10450);
 			StartCoroutine("ShieldSS", 60);
