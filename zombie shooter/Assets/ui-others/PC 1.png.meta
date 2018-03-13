@@ -1,0 +1,317 @@
+fileFormatVersion: 2
+guid: ad3e50c8bd2fe674e8b41ab3b2e43373
+timeCreated: 1520896400
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: PC 1_0
+    21300002: PC 1_1
+    21300004: PC 1_2
+    21300006: PC 1_3
+    21300008: PC 1_4
+    21300010: PC 1_5
+    21300012: PC 1_6
+    21300014: PC 1_7
+    21300016: PC 1_8
+    21300018: PC 1_9
+    21300020: PC 1_10
+    21300022: PC 1_11
+    21300024: PC 1_12
+    21300026: PC 1_13
+  externalObjects: {}
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: Windows Store Apps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PC 1_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 141
+        width: 75
+        height: 70
+      alignment: 9
+      pivot: {x: 0.6024895, y: 0.064420424}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC 1_1
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 113
+        width: 16
+        height: 22
+      alignment: 9
+      pivot: {x: 0.48398614, y: 0.8377491}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC 1_2
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 86
+        width: 46
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC 1_3
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 112
+        width: 17
+        height: 21
+      alignment: 9
+      pivot: {x: 0.4849279, y: 0.89043605}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC 1_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 83
+        width: 19
+        height: 26
+      alignment: 9
+      pivot: {x: 0.3786312, y: 0.88433546}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC 1_5
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 82
+        width: 18
+        height: 26
+      alignment: 9
+      pivot: {x: 0.457297, y: 0.89418995}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC 1_6
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 60
+        width: 22
+        height: 19
+      alignment: 9
+      pivot: {x: 0.39518163, y: 0.8371361}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC 1_7
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 50
+        width: 16
+        height: 23
+      alignment: 9
+      pivot: {x: 0.5320282, y: 0.8453452}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC 1_8
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 50
+        width: 15
+        height: 23
+      alignment: 9
+      pivot: {x: 0.4487559, y: 0.8453452}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC 1_9
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 61
+        width: 17
+        height: 18
+      alignment: 9
+      pivot: {x: 0.5150725, y: 0.7704582}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC 1_10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 20
+        width: 18
+        height: 24
+      alignment: 9
+      pivot: {x: 0.51423496, y: 0.8523073}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC 1_11
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 22
+        width: 19
+        height: 21
+      alignment: 9
+      pivot: {x: 0.5, y: 0.8538324}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC 1_12
+      rect:
+        serializedVersion: 2
+        x: 18
+        y: 0
+        width: 34
+        height: 16
+      alignment: 9
+      pivot: {x: 0.643184, y: 0.80426604}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: PC 1_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 33
+        height: 16
+      alignment: 9
+      pivot: {x: 0.33694875, y: 0.82028}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+    outline: []
+    physicsShape: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
