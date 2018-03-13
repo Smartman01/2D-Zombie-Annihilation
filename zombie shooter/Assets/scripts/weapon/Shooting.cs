@@ -31,8 +31,11 @@ public class Shooting : MonoBehaviour
     public AudioClip gunAudioClip;
     public AudioClip reloadClip;
 
+    private Animator anim;
+
     void Start()
     {
+        anim = GetComponent<Animator>();
         control = transform.root.GetComponent<PlayerController>();
     }
 
@@ -49,6 +52,10 @@ public class Shooting : MonoBehaviour
             gunAudioSource.clip = gunAudioClip;
             gunAudioSource.Play();
             shoot();
+        }
+        else
+        {
+            anim.SetBool("Shoot", false);
         }
 
         if (Input.GetKeyUp(KeyCode.R) || Input.GetButtonUp("XButton") && clip != 30 && reserve != 0)
@@ -84,6 +91,8 @@ public class Shooting : MonoBehaviour
             Instantiate(muzzleFlashPrefab, bulletSpawn.position, Quaternion.Euler(new Vector3(0, 0, 180)));
             bulletInstance.velocity = new Vector2(-speed, 0);
         }
+
+        anim.SetBool("Shoot", true);
     }
 
     void Weapon()

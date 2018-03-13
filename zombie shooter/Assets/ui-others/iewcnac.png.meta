@@ -1,23 +1,23 @@
 fileFormatVersion: 2
-guid: ad3e50c8bd2fe674e8b41ab3b2e43373
-timeCreated: 1520896400
+guid: d1bd19f1f034a55429205d36458ea3bb
+timeCreated: 1520976969
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
-    21300000: PC 1_0
-    21300002: PC 1_1
-    21300004: PC 1_2
-    21300006: PC 1_3
-    21300008: PC 1_4
-    21300010: PC 1_5
-    21300012: PC 1_6
-    21300014: PC 1_7
-    21300016: PC 1_8
-    21300018: PC 1_9
-    21300020: PC 1_10
-    21300022: PC 1_11
-    21300024: PC 1_12
-    21300026: PC 1_13
+    21300000: iewcnac_0
+    21300002: iewcnac_1
+    21300004: iewcnac_2
+    21300006: iewcnac_3
+    21300008: iewcnac_4
+    21300010: iewcnac_5
+    21300012: iewcnac_6
+    21300014: iewcnac_7
+    21300016: iewcnac_8
+    21300018: iewcnac_9
+    21300020: iewcnac_10
+    21300022: iewcnac_11
+    21300024: iewcnac_12
+    21300026: iewcnac_13
   externalObjects: {}
   serializedVersion: 4
   mipmaps:
@@ -114,49 +114,69 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: PC 1_0
+      name: iewcnac_0
       rect:
         serializedVersion: 2
         x: 3
         y: 141
         width: 75
         height: 70
-      alignment: 9
-      pivot: {x: 0.6024895, y: 0.064420424}
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -28.5, y: 35}
+        - {x: -37.5, y: 21}
+        - {x: -37.5, y: -30}
+        - {x: -32.5, y: -35}
+        - {x: 37.5, y: -35}
+        - {x: 37.5, y: 35}
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PC 1_1
+      name: iewcnac_1
       rect:
         serializedVersion: 2
         x: 3
-        y: 113
+        y: 112
         width: 16
-        height: 22
+        height: 23
       alignment: 9
-      pivot: {x: 0.48398614, y: 0.8377491}
+      pivot: {x: 0.5160141, y: 0.8453449}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 11.5}
+        - {x: -8, y: -11.5}
+        - {x: 5, y: -11.5}
+        - {x: 8, y: -8.5}
+        - {x: 8, y: 11.5}
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PC 1_2
+      name: iewcnac_2
       rect:
         serializedVersion: 2
         x: 33
         y: 86
-        width: 46
+        width: 47
         height: 46
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 19.5, y: 23}
+        - {x: -21.5, y: 23}
+        - {x: -23.5, y: 16}
+        - {x: -23.5, y: -17}
+        - {x: -17.5, y: -23}
+        - {x: 16.5, y: -23}
+        - {x: 23.5, y: -19}
+        - {x: 23.5, y: 17}
+        - {x: 22.5, y: 22}
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PC 1_3
+      name: iewcnac_3
       rect:
         serializedVersion: 2
         x: 88
@@ -164,55 +184,77 @@ TextureImporter:
         width: 17
         height: 21
       alignment: 9
-      pivot: {x: 0.4849279, y: 0.89043605}
+      pivot: {x: 0.5150721, y: 0.89043605}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -5.5, y: 10.5}
+        - {x: -8.5, y: 9.5}
+        - {x: -8.5, y: -10.5}
+        - {x: 8.5, y: -10.5}
+        - {x: 8.5, y: 10.5}
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PC 1_4
+      name: iewcnac_4
       rect:
         serializedVersion: 2
         x: 1
         y: 83
         width: 19
-        height: 26
+        height: 28
       alignment: 9
-      pivot: {x: 0.3786312, y: 0.88433546}
+      pivot: {x: 0.39211664, y: 0.9026372}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -9.5, y: 14}
+        - {x: -9.5, y: -11}
+        - {x: -6.5, y: -14}
+        - {x: 6.5, y: -14}
+        - {x: 9.5, y: -11}
+        - {x: 9.5, y: 9}
+        - {x: 6.5, y: 14}
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PC 1_5
+      name: iewcnac_5
       rect:
         serializedVersion: 2
-        x: 88
+        x: 87
         y: 82
-        width: 18
-        height: 26
+        width: 19
+        height: 27
       alignment: 9
-      pivot: {x: 0.457297, y: 0.89418995}
+      pivot: {x: 0.41908827, y: 0.9128048}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -9.5, y: 14}
+        - {x: -9.5, y: -10}
+        - {x: -6.5, y: -14}
+        - {x: 9.5, y: -14}
+        - {x: 9.5, y: 14}
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PC 1_6
+      name: iewcnac_6
       rect:
         serializedVersion: 2
-        x: 1
+        x: 0
         y: 60
         width: 22
         height: 19
       alignment: 9
-      pivot: {x: 0.39518163, y: 0.8371361}
+      pivot: {x: 0.453414, y: 0.8101654}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -11, y: 9.5}
+        - {x: -11, y: -9.5}
+        - {x: 11, y: -9.5}
+        - {x: 11, y: 8.5}
+        - {x: 10, y: 9.5}
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PC 1_7
+      name: iewcnac_7
       rect:
         serializedVersion: 2
         x: 34
@@ -220,41 +262,58 @@ TextureImporter:
         width: 16
         height: 23
       alignment: 9
-      pivot: {x: 0.5320282, y: 0.8453452}
+      pivot: {x: 0.5320282, y: 0.8899055}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 11.5}
+        - {x: -8, y: -9.5}
+        - {x: -7, y: -11.5}
+        - {x: 8, y: -11.5}
+        - {x: 8, y: 11.5}
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PC 1_8
+      name: iewcnac_8
       rect:
         serializedVersion: 2
-        x: 65
+        x: 64
         y: 50
-        width: 15
-        height: 23
+        width: 17
+        height: 24
       alignment: 9
-      pivot: {x: 0.4487559, y: 0.8453452}
+      pivot: {x: 0.5150725, y: 0.8629837}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8.5, y: 12}
+        - {x: -8.5, y: -10}
+        - {x: -6.5, y: -12}
+        - {x: 8.5, y: -12}
+        - {x: 8.5, y: 11}
+        - {x: 6.5, y: 12}
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PC 1_9
+      name: iewcnac_9
       rect:
         serializedVersion: 2
         x: 89
-        y: 61
-        width: 17
-        height: 18
+        y: 59
+        width: 18
+        height: 20
       alignment: 9
-      pivot: {x: 0.5150725, y: 0.7704582}
+      pivot: {x: 0.48576608, y: 0.8975109}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 10}
+        - {x: -9, y: 9}
+        - {x: -9, y: -10}
+        - {x: 7, y: -10}
+        - {x: 9, y: -8}
+        - {x: 9, y: 10}
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PC 1_10
+      name: iewcnac_10
       rect:
         serializedVersion: 2
         x: 32
@@ -262,41 +321,61 @@ TextureImporter:
         width: 18
         height: 24
       alignment: 9
-      pivot: {x: 0.51423496, y: 0.8523073}
+      pivot: {x: 0.51423496, y: 0.88433534}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -8, y: 12}
+        - {x: -9, y: 11}
+        - {x: -9, y: -9}
+        - {x: -5, y: -12}
+        - {x: 9, y: -12}
+        - {x: 9, y: 12}
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PC 1_11
+      name: iewcnac_11
       rect:
         serializedVersion: 2
         x: 65
-        y: 22
+        y: 19
         width: 19
-        height: 21
+        height: 24
       alignment: 9
-      pivot: {x: 0.5, y: 0.8538324}
+      pivot: {x: 0.48651484, y: 0.9270393}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 9.5, y: 11}
+        - {x: 7.5, y: 12}
+        - {x: -5.5, y: 12}
+        - {x: -9.5, y: 8}
+        - {x: -9.5, y: -11}
+        - {x: -6.5, y: -12}
+        - {x: 9.5, y: -12}
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PC 1_12
+      name: iewcnac_12
       rect:
         serializedVersion: 2
         x: 18
         y: 0
-        width: 34
+        width: 33
         height: 16
       alignment: 9
-      pivot: {x: 0.643184, y: 0.80426604}
+      pivot: {x: 0.680864, y: 0.8843359}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: 14, y: 8}
+        - {x: -13, y: 8}
+        - {x: -17, y: 3}
+        - {x: -17, y: -8}
+        - {x: 17, y: -8}
+        - {x: 17, y: 3}
+        - {x: 16, y: 6}
       tessellationDetail: 0
     - serializedVersion: 2
-      name: PC 1_13
+      name: iewcnac_13
       rect:
         serializedVersion: 2
         x: 64
@@ -304,10 +383,16 @@ TextureImporter:
         width: 33
         height: 16
       alignment: 9
-      pivot: {x: 0.33694875, y: 0.82028}
+      pivot: {x: 0.33694875, y: 0.8683219}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-      physicsShape: []
+      physicsShape:
+      - - {x: -13.5, y: 8}
+        - {x: -16.5, y: 5}
+        - {x: -16.5, y: -8}
+        - {x: 16.5, y: -8}
+        - {x: 16.5, y: 3}
+        - {x: 10.5, y: 8}
       tessellationDetail: 0
     outline: []
     physicsShape: []
