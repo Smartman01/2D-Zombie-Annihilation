@@ -41,7 +41,7 @@ public class PlayerController : MonoBehaviour {
         if ((Input.GetButtonDown("Jump") || Input.GetButtonDown("AButton")) && grounded)
         {
             jump = true;
-            anim.SetBool("Jump", grounded);
+            //anim.SetFloat("Jump", jumpForce);
         }
     }
 
@@ -61,16 +61,20 @@ public class PlayerController : MonoBehaviour {
         if (h > 0 && !facingRight)
         {
             Flip();
-            anim.SetFloat("Speed_run", -rb2d.velocity.x);
         }
         else if (h < 0 && facingRight)
             Flip();
 
+        if(!facingRight)
+            anim.SetFloat("Speed_run", -rb2d.velocity.x);
+
         if (jump == true)
         {
-            anim.SetBool("Jump", grounded);
+            //anim.SetFloat("Jump", rb2d.velocity.y);
+            //grounded = false;
             rb2d.AddForce(new Vector2(0f, jumpForce));
             jump = false;
+            //anim.SetBool("Jump", grounded);
         }
 
         if (Input.GetKey(KeyCode.LeftShift) || Input.GetButton("LSBtn"))

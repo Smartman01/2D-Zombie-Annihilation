@@ -10,7 +10,7 @@ public class AchievementScript : MonoBehaviour {
     public GameObject achievement_4;
     public GameObject achievement_5;
 
-    static bool created = false;
+    //static bool created = false;
 
     /*bool ach_1 = false;
     bool ach_2 = false;

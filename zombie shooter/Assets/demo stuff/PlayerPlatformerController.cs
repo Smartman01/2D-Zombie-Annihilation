@@ -9,13 +9,13 @@ public class PlayerPlatformerController : PhysicsObject
     public float jumpTakeOffSpeed = 7;
 
     private SpriteRenderer spriteRenderer;
-    private Animator animator;
+    //private Animator animator;
 
     // Use this for initialization
     void Awake()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
-        animator = GetComponent<Animator>();
+        //animator = GetComponent<Animator>();
     }
 
     protected override void ComputeVelocity()
