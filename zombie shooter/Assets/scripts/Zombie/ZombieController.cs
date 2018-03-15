@@ -1,9 +1,10 @@
 ﻿using UnityEngine;
+using UnityEngine.AI;
 using System.Collections;
 
 public class ZombieController : MonoBehaviour {
 
-	// Use this for initialization
+    /*// Use this for initialization
 	private GameObject[] Players;
 	private GameObject CurrentPlayer;
 	public float InitialSpeed = 1.0f;
@@ -168,5 +169,21 @@ public class ZombieController : MonoBehaviour {
 			float tmp3 = tmp1 * tmp1 + tmp2 * tmp2;
 			tmp3 = Mathf.Pow ((float)tmp3,0.5f);
 			return tmp3;
-	}
+	}*/
+
+    public Transform Player;
+
+    public NavMeshAgent enemyAgent;
+
+    void Start()
+    {
+        Player = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
+
+    }
+
+    void Update()
+    {
+        enemyAgent.SetDestination(Player.position);
+    }
+
 }
