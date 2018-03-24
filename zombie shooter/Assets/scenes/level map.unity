@@ -21659,6 +21659,24 @@ Prefab:
       value: 
       objectReference: {fileID: 1891348744325340, guid: 75b769e36a54d5046ae9336d4eedc61f,
         type: 2}
+    - target: {fileID: 114462489437930838, guid: 68dbdc32b13cc8e43a53dbea3a331426,
+        type: 2}
+      propertyPath: zombies.Array.data[0]
+      value: 
+      objectReference: {fileID: 1550431738581638, guid: 9c220b4853b312445a83db778fca4506,
+        type: 2}
+    - target: {fileID: 114462489437930838, guid: 68dbdc32b13cc8e43a53dbea3a331426,
+        type: 2}
+      propertyPath: zombies.Array.data[1]
+      value: 
+      objectReference: {fileID: 1300765938589234, guid: 384d8da11cd9f424a8e8ab86d76ef0b4,
+        type: 2}
+    - target: {fileID: 114462489437930838, guid: 68dbdc32b13cc8e43a53dbea3a331426,
+        type: 2}
+      propertyPath: zombies.Array.data[2]
+      value: 
+      objectReference: {fileID: 1493005258740986, guid: d6ae15bf5e6d96a42a9d8c1daa7d4022,
+        type: 2}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 68dbdc32b13cc8e43a53dbea3a331426, type: 2}
   m_IsPrefabParent: 0

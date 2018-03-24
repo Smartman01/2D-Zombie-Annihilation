@@ -17,6 +17,8 @@ public class ZombieHealth : MonoBehaviour {
 
     bool healthBool = true;
 
+    private Animator anim;
+
     //public GameManager gameManager;
 
     //public bool hellHound;
@@ -27,6 +29,8 @@ public class ZombieHealth : MonoBehaviour {
 
     void Start()
     {
+        anim = GetComponent<Animator>();
+
         //maxHealth = 100;
 
         Player = GameObject.Find("Player");
@@ -73,6 +77,9 @@ public class ZombieHealth : MonoBehaviour {
 		if (currentHealth <= 0)
 		{
 			currentHealth = 0;
+
+            anim.SetTrigger("Dead");
+
 			//shooting.kills += 1;
 			//Destroy(gameObject);
 			//if health has fallen below zero, deactivate it 

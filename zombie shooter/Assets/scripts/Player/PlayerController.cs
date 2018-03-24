@@ -70,11 +70,11 @@ public class PlayerController : MonoBehaviour {
 
         if (jump == true)
         {
-            //anim.SetFloat("Jump", rb2d.velocity.y);
+            //anim.SetBool("Jump", jump);
+            //anim.SetFloat("Jump", jump);
             //grounded = false;
             rb2d.AddForce(new Vector2(0f, jumpForce));
             jump = false;
-            //anim.SetBool("Jump", grounded);
         }
 
         if (Input.GetKey(KeyCode.LeftShift) || Input.GetButton("LSBtn"))

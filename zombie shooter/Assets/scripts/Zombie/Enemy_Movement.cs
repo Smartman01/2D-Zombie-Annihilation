@@ -34,87 +34,65 @@ public class Enemy_Movement : MonoBehaviour {
 
     public int jumpCooldownTime;
 
+    private Animator anim;
+
     // Use this for initialization
     void Awake () {
 
         Player = GameObject.Find("Player");
-		
-	}
+        anim = GetComponent<Animator>();
+    }
 	
 	// Update is called once per frame
 	void Update () {
-
         //Attack
-        if (Vector2.Distance(gameObject.transform.position, Player.transform.position) < AttackDistance) {
-            
+        if (Vector2.Distance(gameObject.transform.position, Player.transform.position) < AttackDistance) { 
             if(canAttack == true) {
-
                 Debug.Log("Attack");
 
-                Player.GetComponent<Health>().currentHealth = Player.GetComponent<Health>().currentHealth - 1;
+                anim.SetBool("Attack", canAttack);
+
+                Player.GetComponent<Health>().currentHealth = Player.GetComponent<Health>().currentHealth - 0;
 
                 StartCoroutine("AttackCooldown");
 
                 canAttack = false;
-
             }
-
         }
-
         else {
-
             transform.position = Vector2.MoveTowards(transform.position, Player.transform.position, EnemySpeed * Time.deltaTime);
-
             if(Player.transform.position.x - transform.position.x >= 0) {
-
                 sr.flipX = false;
-
             }
-
             else {
-
                 sr.flipX = true;
-
             }
-
-
         }
-
     }
 
 
     public IEnumerator AttackCooldown () {
-
         yield return new WaitForSeconds(attackCooldownTime);
 
         canAttack = true;
-
-
     }
 
 
 
     //Detects collision of an obstacle, then jumps (BoxCollider2D Trigger on Enemy)
     public void OnTriggerEnter2D(Collider2D collision) {
-
         if (canJump == true && collision.gameObject.tag == "Obstacle") {
-
             canJump = false;
 
             rb.AddForce(Vector2.up * EnemyJumpHeight * 100, ForceMode2D.Force);
 
             StartCoroutine(JumpCooldown());
-
         }
-
     }
 
     public IEnumerator JumpCooldown() {
-
         yield return new WaitForSeconds(jumpCooldownTime);
 
         canJump = true;
-
-
     }
 }
