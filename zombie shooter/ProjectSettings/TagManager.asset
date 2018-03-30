@@ -9,6 +9,9 @@ TagManager:
   - Spawn
   - atomGround
   - Main Cam
+  - Rope
+  - Ladder
+  - Pickup
   layers:
   - Default
   - TransparentFX
@@ -28,9 +31,9 @@ TagManager:
   - MB
   - Ladders
   - Shield
-  - NavMeshCubes
-  - NavmeshBG
-  - EnemyCube
+  - 
+  - 
+  - 
   - 
   - 
   - 
