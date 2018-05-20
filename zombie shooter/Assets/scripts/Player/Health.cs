@@ -23,6 +23,10 @@ public class Health : MonoBehaviour {
 
     //public string level;
 
+    public AudioSource healthAudioSource;
+    public AudioClip[] h_clips;
+    bool h_clipsBool = false;
+
     void Start()
     {
         currentHealth = maxHealth;
@@ -44,12 +48,22 @@ public class Health : MonoBehaviour {
             pauseMenu.SetActive(false);
             Time.timeScale = 1;
         }
+
+        if(currentHealth < 100 && h_clipsBool == true)
+        {
+            int audioClipIndex = Random.Range(0, h_clips.Length);
+            healthAudioSource.clip = h_clips[audioClipIndex];
+            healthAudioSource.Play();
+            h_clipsBool = false;
+        }
     }
 
     public void Damage(int damageAmount)
     {
         //subtract damage amount when Damage function is called
         currentHealth -= damageAmount;
+
+        h_clipsBool = true;
 
         //ShootingScript1 shooting = transform.GetComponent<ShootingScript1>();
         //Check if health has fallen below zero

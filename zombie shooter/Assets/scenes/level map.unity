@@ -2900,6 +2900,10 @@ Prefab:
       propertyPath: m_RootOrder
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 21259298, guid: 4cd2545a068ae244da86cdc80ccebc47, type: 2}
+      propertyPath: m_SortingOrder
+      value: -15
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 4cd2545a068ae244da86cdc80ccebc47, type: 2}
   m_IsPrefabParent: 0
@@ -5514,7 +5518,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -15
   m_Sprite: {fileID: 21300012, guid: 50b3f83e8ccf7d548b25401d560e919d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -8370,7 +8374,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   version: 1
   data:
-    dataString: UEsDBBQAAAgIAACYn+uVrph+WQIAAOQEAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VE2T2jAM/SuMz2UnYcNHemtZlvawC7O000suxlaIB8fO2M7yscN/r+wEkqXTE+JJepKe5HwQoWwFzGmzNIK/aA7k64B4m3wZEBp8b9QJjXCMiLC6BGcE+6Z20sdGCNZK5NqUC76DubbOIpxTaQFdRjufrRD6GJAj/gxTn3JCazT11hmtNBpc0GSgHJguNJk9zOJr8LiNbUJrxSQtK+AbcYYuI03b8HESwhQO1EZ4IqalFLZth7hTFabdVAUY8PNyQXG60EL0ECoWIHaF8/X76as8t+Da6Q09PQmDOjW85Lt2hScrqd03nb1TWftKo8koiZr+G96Xf0KGcXDnRpc/rqXjyJdxhWD7N3pi1LqewH34qWs/DhodqNzTrYQ/BahXvTS6VhydztQ+tbYweur+3qabF8D2Hd60egfWVSf6bZ8Pj7Mknk0eJ4thNG3X5Qe6BDWOcynKbZA2aYCN1GED4SLA4K5+YvfhXmzLi6hv6beFX3TXP6zW8SyMdehqR1a+162ujQ8liyCgH612c20UmD5DBYpKd1ojj7vf6Z3v/1nP1L+dtnrruz6Nu5QAd/FRdOda68NtdbbQhxewxap2UijodPeOVxRqrpVqTs5+dvqsTW1yynpZu1rwz3dG0hTSlNN0yyM2HU/jIRtPtpM8SbcJe6QRxCQcolA4JpXrps9WHdya6sgVHt31ozFYGlqF6+eGHpbiXOpef0LlesMMgFo1DFeFLBgsgu+UL7hAfTbgnFBh3+QjI1KzPfDsRpSFSRdHZ2jWsWSkEu/aeSQj8/ApyciFXP4CUEsDBBQAAAgIAACYn+tdjsEobQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz1DM00lFQSi9KLMgoBooYgjilmSkgdrSSpWWqpWVKomVSikGyuam5oW6yqVmSWZqJZZJJsnGiQaqhUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAACYn+uVrph+WQIAAOQEAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAACYn+tdjsEobQAAAHgAAAAJACQAAAAAAAAAAAAAAKYCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAXgMAAAAA
+    dataString: UEsDBBQAAAgIAACYn+uVrph+WQIAAOQEAAALACQAZ3JhcGgwLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQF1VE2T2jAM/SuMz2UnYcNHemtZlvawC7O000suxlaIB8fO2M7yscN/r+wEkqXTE+JJepKe5HwQoWwFzGmzNIK/aA7k64B4m3wZEBp8b9QJjXCMiLC6BGcE+6Z20sdGCNZK5NqUC76DubbOIpxTaQFdRjufrRD6GJAj/gxTn3JCazT11hmtNBpc0GSgHJguNJk9zOJr8LiNbUJrxSQtK+AbcYYuI03b8HESwhQO1EZ4IqalFLZth7hTFabdVAUY8PNyQXG60EL0ECoWIHaF8/X76as8t+Da6Q09PQmDOjW85Lt2hScrqd03nb1TWftKo8koiZr+G96Xf0KGcXDnRpc/rqXjyJdxhWD7N3pi1LqewH34qWs/DhodqNzTrYQ/BahXvTS6VhydztQ+tbYweur+3qabF8D2Hd60egfWVSf6bZ8Pj7Mknk0eJ4thNG3X5Qe6BDWOcynKbZA2aYCN1GED4SLA4K5+YvfhXmzLi6hv6beFX3TXP6zW8SyMdehqR1a+162ujQ8liyCgH612c20UmD5DBYpKd1ojj7vf6Z3v/1nP1L+dtnrruz6Nu5QAd/FRdOda68NtdbbQhxewxap2UijodPeOVxRqrpVqTs5+dvqsTW1yynpZu1rwz3dG0hTSlNN0yyM2HU/jIRtPtpM8SbcJe6QRxCQcolA4JpXrps9WHdya6sgVHt31ozFYGlqF6+eGHpbiXOpef0LlesMMgFo1DFeFLBgsgu+UL7hAfTbgnFBh3+QjI1KzPfDsRpSFSRdHZ2jWsWSkEu/aeSQj8/ApyciFXP4CUEsDBBQAAAgIAACYn+tx2a4LbQAAAHgAAAAJACQAbWV0YS5qc29uCgAgAAAAAAABABgAAIA+1d6xnQEAgD7V3rGdAQCAPtXesZ0Bq1YqSy0qzszPU7JSMNEz1DM001FQSi9KLMgoBooYgjilmSkgdrSSpWWqpWVKomVSikGyuam5oW6yqVmSWZqJZZJJsnGiQaqhUixQfUllQapfYm4qRE9AYklGWmZeSmZeup57UWaKO8hopdhaAFBLAQItABQAAAgIAACYn+uVrph+WQIAAOQEAAALACQAAAAAAAAAAAAAAAAAAABncmFwaDAuanNvbgoAIAAAAAAAAQAYAACAPtXesZ0BAIA+1d6xnQEAgD7V3rGdAVBLAQItABQAAAgIAACYn+tx2a4LbQAAAHgAAAAJACQAAAAAAAAAAAAAAKYCAABtZXRhLmpzb24KACAAAAAAAAEAGAAAgD7V3rGdAQCAPtXesZ0BAIA+1d6xnQFQSwUGAAAAAAIAAgC4AAAAXgMAAAAA
     upgradeData: 
     file_cachedStartup: {fileID: 0}
     data_cachedStartup: 
@@ -8746,6 +8750,11 @@ MonoBehaviour:
   cam: {fileID: 225237161}
   deathMenu: {fileID: 1031846048}
   pauseMenu: {fileID: 351400506}
+  healthAudioSource: {fileID: 1063020393}
+  h_clips:
+  - {fileID: 8300000, guid: 213983a4f4f8d6e4d8b28f135e1962cd, type: 3}
+  - {fileID: 8300000, guid: 552e17d0819b07d4bbca1d5562cac560, type: 3}
+  - {fileID: 8300000, guid: 8ebb88c7855cba24aa83a348b5db747f, type: 3}
 --- !u!114 &1063020396
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10327,7 +10336,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 0
+  m_SortingOrder: -15
   m_Sprite: {fileID: 21300000, guid: a5eafe0573c8f334aa186e569221676f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -11480,6 +11489,7 @@ GameObject:
   - component: {fileID: 1242628849}
   - component: {fileID: 1242628848}
   - component: {fileID: 1242628852}
+  - component: {fileID: 1242628853}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -11615,6 +11625,87 @@ MonoBehaviour:
   startPanel: {fileID: 871885217}
   pausePanel: {fileID: 351400506}
   deathPanel: {fileID: 1031846048}
+--- !u!82 &1242628853
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1242628846}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 24300002, guid: 3072f16810c6fb64ba75c316cdb1c760,
+    type: 2}
+  m_audioClip: {fileID: 8300000, guid: 4bc6de840ff39c348a1e7ab07cc3e65b, type: 3}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
 --- !u!1 &1244707546
 GameObject:
   m_ObjectHideFlags: 0
@@ -26875,6 +26966,18 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 1242628853}
+        m_MethodName: PlayOneShot
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 8300000, guid: 4bc6de840ff39c348a1e7ab07cc3e65b,
+            type: 3}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.AudioClip, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 

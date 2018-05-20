@@ -19,7 +19,7 @@ namespace Pathfinding {
 
         void Awake()
         {
-           target = GameObject.Find("Player").GetComponent<Transform>();
+            target = GameObject.Find("Player").GetComponent<Transform>();
         }
 
         void OnEnable () {
