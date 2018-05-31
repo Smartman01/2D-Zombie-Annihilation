@@ -24,6 +24,7 @@ public class Health : MonoBehaviour {
     //public string level;
 
     public AudioSource healthAudioSource;
+    public AudioClip heartBeat;
     public AudioClip[] h_clips;
     bool h_clipsBool = false;
 
@@ -64,6 +65,16 @@ public class Health : MonoBehaviour {
         currentHealth -= damageAmount;
 
         h_clipsBool = true;
+
+        if(currentHealth <= 30)
+        {
+            //h_clipsBool = false;
+            healthAudioSource.clip = heartBeat;
+            healthAudioSource.loop = true;
+            healthAudioSource.Play();
+        }
+
+        healthAudioSource.loop = false;
 
         //ShootingScript1 shooting = transform.GetComponent<ShootingScript1>();
         //Check if health has fallen below zero

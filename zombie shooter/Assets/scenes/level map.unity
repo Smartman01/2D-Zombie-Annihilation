@@ -8751,10 +8751,12 @@ MonoBehaviour:
   deathMenu: {fileID: 1031846048}
   pauseMenu: {fileID: 351400506}
   healthAudioSource: {fileID: 1063020393}
+  heartBeat: {fileID: 8300000, guid: 4d0057c706d33e143ba886d452efebca, type: 3}
   h_clips:
   - {fileID: 8300000, guid: 213983a4f4f8d6e4d8b28f135e1962cd, type: 3}
   - {fileID: 8300000, guid: 552e17d0819b07d4bbca1d5562cac560, type: 3}
   - {fileID: 8300000, guid: 8ebb88c7855cba24aa83a348b5db747f, type: 3}
+  - {fileID: 8300000, guid: 84ad2965a2ccd0947a135537e8df91b4, type: 3}
 --- !u!114 &1063020396
 MonoBehaviour:
   m_ObjectHideFlags: 0
