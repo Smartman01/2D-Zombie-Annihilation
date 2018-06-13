@@ -33,6 +33,8 @@ public class Shooting : MonoBehaviour
 
     private Animator anim;
 
+    public static bool shot;
+
     void Start()
     {
         anim = GetComponent<Animator>();
