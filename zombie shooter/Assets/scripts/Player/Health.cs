@@ -66,7 +66,7 @@ public class Health : MonoBehaviour {
 
         h_clipsBool = true;
 
-        if (currentHealth <= 30)
+        /*if (currentHealth <= 30)
         {
             h_clipsBool = false;
             healthAudioSource.clip = heartBeat;
@@ -76,7 +76,7 @@ public class Health : MonoBehaviour {
         {
             healthAudioSource.loop = false;
             h_clipsBool = true;
-        }
+        }*/
         
         //ShootingScript1 shooting = transform.GetComponent<ShootingScript1>();
         //Check if health has fallen below zero
